@@ -1,1 +1,1 @@
-<h1 align="center">Nolley & Tush </h1>
+<h3 align="center">Nolley & Tush </h3>
