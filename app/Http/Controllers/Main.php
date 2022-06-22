@@ -35,4 +35,5 @@ class Main extends Controller
         Mail::to('enolaanne89@gmail.com')->send(new ContactMail($details));
         return back()->with('message_sent', 'Your message has been sent successfully');
     }
+
 }

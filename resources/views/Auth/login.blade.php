@@ -22,7 +22,7 @@
         <input type="text" name="email" value="" placeholder="Enter Email"/>
         <input type="password" name="password" placeholder="Enter Password"/>
         <button type="submit">Login</button>
-        <p class="message">Not Registered? <a href="#">Register</a></p>
+        <p class="message">Not Registered? <a href="/register">Register</a></p>
     </form>
 </body>
 </html>
