@@ -108,22 +108,22 @@
                     <th>option</th>
                 </tr>
                 <tr>
-                    <td><img src="user.png" alt=""></td>
+                    <td><img src="{{url('/images/user.png')}}" alt=""></td>
                     <td>John Steve Doe</td>
                     <td><i class="fa fa-info" aria-hidden="true"></i></td>
                 </tr>
                 <tr>
-                    <td><img src="user.png" alt=""></td>
+                    <td><img src="{{url('/images/user.png')}}" alt=""></td>
                     <td>John Steve Doe</td>
                     <td><i class="fa fa-info" aria-hidden="true"></i></td>
                 </tr>
                 <tr>
-                    <td><img src="user.png" alt=""></td>
+                    <td><img src="{{url('/images/user.png')}}" alt=""></td>
                     <td>John Steve Doe</td>
                     <td><i class="fa fa-info" aria-hidden="true"></i></td>
                 </tr>
                 <tr>
-                    <td><img src="user.png" alt=""></td>
+                    <td><img src="{{url('/images/user.png')}}" alt=""></td>
                     <td>John Steve Doe</td>
                     <td><i class="fa fa-info" aria-hidden="true"></i></td>
                 </tr>
