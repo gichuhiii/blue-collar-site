@@ -13,6 +13,19 @@
     <link rel="stylesheet" href="{{url('/css/fontawesome.css')}}">
     <link rel="stylesheet" href="{{url('/css/style.css')}}">
     <link rel="stylesheet" href="{{url('/css/owl.css')}}">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/price_rangs.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
   </head>
   <body>
     <!-- ***** Preloader Start ***** -->
@@ -22,7 +35,7 @@
             <div></div>
             <div></div>
         </div>
-    </div>  
+    </div>
     <!-- ***** Preloader End ***** -->
     <!-- Header -->
     <div class="sub-header">
@@ -30,8 +43,8 @@
         <div class="row">
           <div class="col-md-8 col-xs-12">
             <ul class="left-info">
-              <li><a href="#"><i class="fa fa-envelope"></i>contact@company.com</a></li>
-              <li><a href="#"><i class="fa fa-phone"></i>123-456-7890</a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i>taskit@gmail.com</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>0787654321</a></li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -53,17 +66,17 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="/">Home
+                <a class="nav-link" href="/jobs">Jobs
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/jobs">Jobs</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-              
+
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="/about">About Us</a>
                     <a class="dropdown-item" href="team.html">Team</a>
@@ -84,14 +97,12 @@
       </nav>
     </header>
 
-    @yield('content')
-
     <!-- Footer Starts Here -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-md-3 footer-item">
-            <h4>Job Agency Website</h4>
+            <h4>Task It </h4>
             <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p>
             <ul class="social-icons">
               <li><a rel="nofollow" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -162,7 +173,7 @@
         </div>
       </div>
     </footer>
-    
+
     <div class="sub-footer">
       <div class="container">
         <div class="row">
@@ -185,7 +196,7 @@
     <script src="{{url('/js/slick.js')}}"></script>
     <script src="{{url('/js/accordions.js')}}"></script>
 
-    <script language = "text/Javascript"> 
+    <script language = "text/Javascript">
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
       function clearField(t){                   //declaring the array outside of the
       if(! cleared[t.id]){                      // function makes it static and global

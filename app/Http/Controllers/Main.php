@@ -36,4 +36,9 @@ class Main extends Controller
         return back()->with('message_sent', 'Your message has been sent successfully');
     }
 
+    public function jobs()
+    {
+        return view('client.jobs');
+    }
+
 }
