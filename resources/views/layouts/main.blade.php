@@ -59,7 +59,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="jobs.html">Jobs</a>
+                <a class="nav-link" href="/jobs">Jobs</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
