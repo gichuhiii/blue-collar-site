@@ -13,19 +13,6 @@
     <link rel="stylesheet" href="{{url('/css/fontawesome.css')}}">
     <link rel="stylesheet" href="{{url('/css/style.css')}}">
     <link rel="stylesheet" href="{{url('/css/owl.css')}}">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/price_rangs.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
   </head>
   <body>
     <!-- ***** Preloader Start ***** -->
@@ -35,7 +22,7 @@
             <div></div>
             <div></div>
         </div>
-    </div>
+    </div>  
     <!-- ***** Preloader End ***** -->
     <!-- Header -->
     <div class="sub-header">
@@ -44,7 +31,7 @@
           <div class="col-md-8 col-xs-12">
             <ul class="left-info">
               <li><a href="#"><i class="fa fa-envelope"></i>taskit@gmail.com</a></li>
-              <li><a href="#"><i class="fa fa-phone"></i>0787654321</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>0712345678</a></li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -66,17 +53,17 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
-              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="/jobs">Jobs
+                <a class="nav-link" href="/">Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/jobs">Jobs</a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-
+              
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="/about">About Us</a>
                     <a class="dropdown-item" href="team.html">Team</a>
@@ -96,6 +83,17 @@
         </div>
       </nav>
     </header>
+        
+
+      <div class="card" style="width: 18rem;">
+       <img src="assets/images/product-3-720x480.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5>Some Job</h5>
+         <p class="card-text">You know you need some money.</p>
+         <a href="job-details.html" class="filled-button">View More</a>
+  </div>
+</div>
+        
 
     <!-- Footer -->
     @extends('layouts.footer')
