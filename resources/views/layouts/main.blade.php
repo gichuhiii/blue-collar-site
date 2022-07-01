@@ -30,8 +30,8 @@
         <div class="row">
           <div class="col-md-8 col-xs-12">
             <ul class="left-info">
-              <li><a href="#"><i class="fa fa-envelope"></i>contact@company.com</a></li>
-              <li><a href="#"><i class="fa fa-phone"></i>123-456-7890</a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i>taskit@gmail.com</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>0712345678</a></li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -91,8 +91,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 footer-item">
-            <h4>Job Agency Website</h4>
-            <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p>
+            <h4>TaskIt</h4>
+            <p>No more empty pockets.</p>
             <ul class="social-icons">
               <li><a rel="nofollow" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -102,11 +102,10 @@
           <div class="col-md-3 footer-item">
             <h4>Useful Links</h4>
             <ul class="menu-list">
-              <li><a href="#">Vivamus ut tellus mi</a></li>
-              <li><a href="#">Nulla nec cursus elit</a></li>
-              <li><a href="#">Vulputate sed nec</a></li>
-              <li><a href="#">Cursus augue hasellus</a></li>
-              <li><a href="#">Lacinia ac sapien</a></li>
+              <li><a href="#">some link</a></li>
+              <li><a href="#">another link</a></li>
+              <li><a href="#">linky link</a></li>
+              <li><a href="#">oops another link</a></li>
             </ul>
           </div>
           <div class="col-md-3 footer-item">
@@ -114,7 +113,6 @@
             <ul class="menu-list">
               <li><a href="#">About Us</a></li>
               <li><a href="#">Blog</a></li>
-              <li><a href="#">Testimonials</a></li>
               <li><a href="#">Contact Us</a></li>
               <li><a href="#">Terms</a></li>
             </ul>
