@@ -93,144 +93,127 @@
       </nav>
     </header>
 
+
     <!-- Page Content -->
     <div class="page-heading header-text">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>JOBS</h1>
-            <span>Lorem ipsum dolor sit amet.</span>
+            <h1><sup>$</sup>70 000 </h1>
+
+            <span>Job details</span>
           </div>
         </div>
       </div>
     </div>
 
-    <section class="post-area section-gap">
-				<div class="container">
-					<div class="row justify-content-center d-flex">
-						<div class="col-lg-8 post-list">
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="tabs-content" style="display: block;">
+              <h4>Description</h4>
 
-    <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<a href="single.html"><h4>Creative Art Designer</h4></a>
-											<h6>Premium Labels Limited</h6>					
-										</div>
-										<ul class="btns">
-											<li><a href="/jobdetails">Apply</a></li>
-										</ul>
-									</div>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
-									</p>
-									<h6>Job Nature: Full time</h6>
-									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
-									<p class="address"> 15k - 25k</p>
-								</div>
-							</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae provident quae quidem minima cupiditate tempora aperiam corrupti ducimus quos quisquam ipsam, laborum voluptatibus reiciendis saepe, at, facere cum quo! Nesciunt.</p>
 
-              <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<a href="single.html"><h4>Creative Art Designer</h4></a>
-											<h6>Premium Labels Limited</h6>					
-										</div>
-										<ul class="btns">
-											<li><a href="/jobdetails">Apply</a></li>
-										</ul>
-									</div>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
-									</p>
-									<h6>Job Nature: Full time</h6>
-									<p class="address">Far Far Away</p>
-									<p class="address"> 15k - 25k</p>
-								</div>
-							</div>
+              <br>
 
-              <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<a href="single.html"><h4>Creative Art Designer</h4></a>
-											<h6>Premium Labels Limited</h6>					
-										</div>
-										<ul class="btns">
-											<li><a href="/jobdetails">Apply</a></li>
-										</ul>
-									</div>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
-									</p>
-									<h6>Job Nature: Full time</h6>
-									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
-									<p class="address"> 15k - 25k</p>
-								</div>
-							</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam optio doloribus modi? Odio voluptatibus dolorem itaque illo recusandae quasi unde eaque architecto, repellendus id consequatur vel totam, doloremque distinctio quas explicabo iure quisquam quis rem ipsa, accusantium! Perspiciatis, dicta, recusandae?</p>
 
-              <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<a href="single.html"><h4>Creative Art Designer</h4></a>
-											<h6>Premium Labels Limited</h6>					
-										</div>
-										<ul class="btns">
-											<li><a href="/jobdetails">Apply</a></li>
-										</ul>
-									</div>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
-									</p>
-									<h6>Job Nature: Full time</h6>
-									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
-									<p class="address"> 15k - 25k</p>
-								</div>
-							</div>
-</div>
-</div>
-</div>
-    
-    
-      <!-- <section class="container d-flex">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">      
-          <h6 class="card-title">Something nice</h6>
-          <p class="card text">Text Text</p>
-          <a href="job-details.html" class="filled-button">View More</a>
-        </div>
-        </div> 
+              <br>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sunt dolore minima commodi laudantium accusamus nemo repellat sapiente, eius error hic, autem. Dicta eveniet at consequatur dolorum placeat in, laborum beatae temporibus, delectus accusantium assumenda corporis, eum animi quaerat minus eos necessitatibus ipsam! Officia ut ab aspernatur, voluptatem blanditiis qui neque repellendus sapiente voluptas tempora exercitationem ipsa vel, dolorum consequatur.</p>
+            </div>
+
+            <br>
+          </div>
+
+          <div class="col-md-4">
+            <br>
+            <div>
+              <img src="assets/images/product-1-720x480.jpg" alt="" class="img-fluid wc-image">
+            </div>
+            <br>
+
+            <a href="property-details.html" class="filled-button text-center" style="display: block">Apply for this Job</a>
+
+            <br>
+          </div>
         </div>
 
-        
-      </section> -->
-<!--       
-    <div class="col-4 d-flex">
-    <div class="card" style="width: 18rem;">
-       <img src="assets/images/product-3-720x480.jpg" alt="Card image cap">
-        <div class="card-body">
-        <h5>Some Job</h5>
-         <p class="card-text">You know you need some money.</p>
-         <a href="job-details.html" class="filled-button">View More</a>
-  </div>
-</div>
-</div> -->
+        <br>
 
-   
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="tabs-content" style="display: block;">
+              <h4>About Employer</h4>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae provident quae quidem minima cupiditate tempora aperiam corrupti ducimus quos quisquam ipsam, laborum voluptatibus reiciendis saepe, at, facere cum quo! Nesciunt.</p>
+
+              <br>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam optio doloribus modi? Odio voluptatibus dolorem itaque illo recusandae quasi unde eaque architecto, repellendus id consequatur vel totam, doloremque distinctio quas explicabo iure quisquam quis rem ipsa, accusantium! Perspiciatis, dicta, recusandae?</p>
+
+              <br>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sunt dolore minima commodi laudantium accusamus nemo repellat sapiente, eius error hic, autem. Dicta eveniet at consequatur dolorum placeat in, laborum beatae temporibus, delectus accusantium assumenda corporis, eum animi quaerat minus eos necessitatibus ipsam! Officia ut ab aspernatur, voluptatem blanditiis qui neque repellendus sapiente voluptas tempora exercitationem ipsa vel, dolorum consequatur.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="tabs-content">
+              <h4>Contact Details</h4>
+
+              <p>
+                <span>Name</span>
+              
+                <br>
+              
+                <strong>John Smith</strong>
+              </p>
+              
+              <p>
+                <span>Phone</span>
+              
+                <br>
+                
+                <strong>
+                  <a href="tel:123-456-789">123-456-789</a>
+                </strong>
+              </p>
+              
+              <p>
+                <span>Mobile phone</span>
+              
+                <br>
+                
+                <strong>
+                  <a href="tel:456789123">456789123</a>
+                </strong>
+              </p>
+              
+              <p>
+                <span>Email</span>
+              
+                <br>
+                
+                <strong>
+                  <a href="mailto:john@carsales.com">john@carsales.com</a>
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+
+
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
  
 
         
