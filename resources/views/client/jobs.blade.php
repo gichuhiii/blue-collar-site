@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="{{url('/css/fontawesome.css')}}">
     <link rel="stylesheet" href="{{url('/css/style.css')}}">
     <link rel="stylesheet" href="{{url('/css/owl.css')}}">
+
+    <link rel="stylesheet" href="{{url('css/linearicons.css')}}">
+			<link rel="stylesheet" href="{{url('css/font-awesome.min.css')}}">
+			<link rel="stylesheet" href="{{url('css/bootstrap.css')}}">
+			<link rel="stylesheet" href="{{url('css/magnific-popup.css')}}">
+			<link rel="stylesheet" href="{{url('css/nice-select.css')}}">					
+			<link rel="stylesheet" href="{{url('css/animate.min.css')}}">
+			<link rel="stylesheet" href="{{url('css/owl.carousel.css')}}">
+			<link rel="stylesheet" href="{{url('css/main.css')}}">
   </head>
   <body>
     <!-- ***** Preloader Start ***** -->
@@ -53,13 +62,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="/">Home
-                  <span class="sr-only">(current)</span>
-                </a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/jobs">Jobs</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/jobs">Jobs
+                <span class="sr-only">(current)</span>
+                </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
@@ -83,9 +92,135 @@
         </div>
       </nav>
     </header>
-        
 
-      <div class="card" style="width: 18rem;">
+    <!-- Page Content -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>JOBS</h1>
+            <span>Lorem ipsum dolor sit amet.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="post-area section-gap">
+				<div class="container">
+					<div class="row justify-content-center d-flex">
+						<div class="col-lg-8 post-list">
+
+    <div class="single-post d-flex flex-row">
+								<div class="thumb">
+								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
+								</div>
+								<div class="details">
+									<div class="title d-flex flex-row justify-content-between">
+										<div class="titles">
+											<a href="single.html"><h4>Creative Art Designer</h4></a>
+											<h6>Premium Labels Limited</h6>					
+										</div>
+										<ul class="btns">
+											<li><a href="#">Apply</a></li>
+										</ul>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
+									</p>
+									<h6>Job Nature: Full time</h6>
+									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
+									<p class="address"> 15k - 25k</p>
+								</div>
+							</div>
+
+              <div class="single-post d-flex flex-row">
+								<div class="thumb">
+								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
+								</div>
+								<div class="details">
+									<div class="title d-flex flex-row justify-content-between">
+										<div class="titles">
+											<a href="single.html"><h4>Creative Art Designer</h4></a>
+											<h6>Premium Labels Limited</h6>					
+										</div>
+										<ul class="btns">
+											<li><a href="#">Apply</a></li>
+										</ul>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
+									</p>
+									<h6>Job Nature: Full time</h6>
+									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
+									<p class="address"> 15k - 25k</p>
+								</div>
+							</div>
+
+              <div class="single-post d-flex flex-row">
+								<div class="thumb">
+								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
+								</div>
+								<div class="details">
+									<div class="title d-flex flex-row justify-content-between">
+										<div class="titles">
+											<a href="single.html"><h4>Creative Art Designer</h4></a>
+											<h6>Premium Labels Limited</h6>					
+										</div>
+										<ul class="btns">
+											<li><a href="#">Apply</a></li>
+										</ul>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
+									</p>
+									<h6>Job Nature: Full time</h6>
+									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
+									<p class="address"> 15k - 25k</p>
+								</div>
+							</div>
+
+              <div class="single-post d-flex flex-row">
+								<div class="thumb">
+								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
+								</div>
+								<div class="details">
+									<div class="title d-flex flex-row justify-content-between">
+										<div class="titles">
+											<a href="single.html"><h4>Creative Art Designer</h4></a>
+											<h6>Premium Labels Limited</h6>					
+										</div>
+										<ul class="btns">
+											<li><a href="#">Apply</a></li>
+										</ul>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
+									</p>
+									<h6>Job Nature: Full time</h6>
+									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
+									<p class="address"> 15k - 25k</p>
+								</div>
+							</div>
+</div>
+</div>
+</div>
+    
+    
+      <!-- <section class="container d-flex">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">      
+          <h6 class="card-title">Something nice</h6>
+          <p class="card text">Text Text</p>
+          <a href="job-details.html" class="filled-button">View More</a>
+        </div>
+        </div> 
+        </div>
+
+        
+      </section> -->
+<!--       
+    <div class="col-4 d-flex">
+    <div class="card" style="width: 18rem;">
        <img src="assets/images/product-3-720x480.jpg" alt="Card image cap">
         <div class="card-body">
         <h5>Some Job</h5>
@@ -93,6 +228,11 @@
          <a href="job-details.html" class="filled-button">View More</a>
   </div>
 </div>
+</div> -->
+
+   
+ 
+
         
 
     <!-- Footer -->
