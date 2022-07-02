@@ -41,4 +41,9 @@ class Main extends Controller
         return view('client.jobs');
     }
 
+    public function jobdetails()
+    {
+        return view('client.jobdetails');
+    }
+
 }

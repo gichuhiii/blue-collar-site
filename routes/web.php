@@ -20,3 +20,4 @@ Route::get('/adduser', [Auth::class, 'add_user']);
 Route::get('/panel', [Admin::class, 'panel']);
 Route::get('/users', [Admin::class, 'view_user']);
 Route::get('/jobs',[Main::class, 'jobs']);
+Route::get('/jobdetails',[Main::class, 'jobdetails']);
