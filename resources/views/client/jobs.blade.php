@@ -174,38 +174,8 @@
 							</div>
 </div>
 </div>
-</div>
-    
-    
-      <!-- <section class="container d-flex">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">      
-          <h6 class="card-title">Something nice</h6>
-          <p class="card text">Text Text</p>
-          <a href="job-details.html" class="filled-button">View More</a>
-        </div>
-        </div> 
-        </div>
-
-        
-      </section> -->
-<!--       
-    <div class="col-4 d-flex">
-    <div class="card" style="width: 18rem;">
-       <img src="assets/images/product-3-720x480.jpg" alt="Card image cap">
-        <div class="card-body">
-        <h5>Some Job</h5>
-         <p class="card-text">You know you need some money.</p>
-         <a href="job-details.html" class="filled-button">View More</a>
-  </div>
-</div>
-</div> -->
-
-   
- 
-
-        
-
+</div> 
+     
     <!-- Footer -->
     @extends('layouts.footer')
 
