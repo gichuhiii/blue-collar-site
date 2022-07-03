@@ -112,93 +112,64 @@
 
     <div class="single-post d-flex flex-row">
 								<div class="thumb">
-								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
 								</div>
 								<div class="details">
 									<div class="title d-flex flex-row justify-content-between">
 										<div class="titles">
-											<a href="single.html"><h4>Creative Art Designer</h4></a>
-											<h6>Premium Labels Limited</h6>					
+											<a href="single.html"><h4>Test Job 1 </h4></a>
+											<h6>Mama Fua </h6>					
 										</div>
 										<ul class="btns">
 											<li><a href="/jobdetails">Apply</a></li>
 										</ul>
 									</div>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
+									Need someone to was my clothes. Kuja unifulie nguo please. I will pay well.
 									</p>
-									<h6>Job Nature: Full time</h6>
-									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
-									<p class="address"> 15k - 25k</p>
+									<p class="address">Nairobi. Kenya</p>
+									<p class="address">Kshs. 1000 - 2000</p>
 								</div>
 							</div>
 
               <div class="single-post d-flex flex-row">
 								<div class="thumb">
-								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
 								</div>
 								<div class="details">
 									<div class="title d-flex flex-row justify-content-between">
 										<div class="titles">
-											<a href="single.html"><h4>Creative Art Designer</h4></a>
-											<h6>Premium Labels Limited</h6>					
+											<a href="single.html"><h4>Test Job 2</h4></a>
+											<h6>Washing Dishes</h6>					
 										</div>
 										<ul class="btns">
 											<li><a href="/jobdetails">Apply</a></li>
 										</ul>
 									</div>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
+									Had a party last night and need my doshes cleaned.
 									</p>
-									<h6>Job Nature: Full time</h6>
-									<p class="address">Far Far Away</p>
-									<p class="address"> 15k - 25k</p>
+									<p class="address">Far Far Away in Nairobi</p>
+									<p class="address">Kshs. 800 - 1500</p>
 								</div>
 							</div>
 
               <div class="single-post d-flex flex-row">
 								<div class="thumb">
-								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
 								</div>
 								<div class="details">
 									<div class="title d-flex flex-row justify-content-between">
 										<div class="titles">
-											<a href="single.html"><h4>Creative Art Designer</h4></a>
-											<h6>Premium Labels Limited</h6>					
+											<a href="single.html"><h4>Test Job 2</h4></a>
+											<h6>Cutting Grass</h6><br>				
 										</div>
 										<ul class="btns">
 											<li><a href="/jobdetails">Apply</a></li>
 										</ul>
 									</div>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
+									My grass is haboring mosquitoes I need someone to cut it for me.
 									</p>
-									<h6>Job Nature: Full time</h6>
-									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
-									<p class="address"> 15k - 25k</p>
-								</div>
-							</div>
-
-              <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								<!-- <img src="{{url('/images/product-1-720x480.jpg')}}" alt=""> -->
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<a href="single.html"><h4>Creative Art Designer</h4></a>
-											<h6>Premium Labels Limited</h6>					
-										</div>
-										<ul class="btns">
-											<li><a href="/jobdetails">Apply</a></li>
-										</ul>
-									</div>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
-									</p>
-									<h6>Job Nature: Full time</h6>
-									<p class="address"> 56/8, Panthapath Dhanmondi Dhaka</p>
-									<p class="address"> 15k - 25k</p>
+									<p class="address"> Nairobi, Kenya</p>
+									<p class="address">Kshs. 2000 - 3000</p>
 								</div>
 							</div>
 </div>
