@@ -124,7 +124,7 @@
 										</ul>
 									</div>
 									<p>
-									Need someone to was my clothes. Kuja unifulie nguo please. I will pay well.
+									Need someone to was my clothes. Kuja unifulie nguo please. I will pay well.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
 									</p>
 									<p class="address">Nairobi. Kenya</p>
 									<p class="address">Kshs. 1000 - 2000</p>
@@ -145,7 +145,7 @@
 										</ul>
 									</div>
 									<p>
-									Had a party last night and need my doshes cleaned.
+									Had a party last night and need my doshes cleaned.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
 									</p>
 									<p class="address">Far Far Away in Nairobi</p>
 									<p class="address">Kshs. 800 - 1500</p>
@@ -166,7 +166,7 @@
 										</ul>
 									</div>
 									<p>
-									My grass is haboring mosquitoes I need someone to cut it for me.
+									My grass is haboring mosquitoes I need someone to cut it for me.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
 									</p>
 									<p class="address"> Nairobi, Kenya</p>
 									<p class="address">Kshs. 2000 - 3000</p>
