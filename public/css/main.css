@@ -2190,7 +2190,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 30px 0 0 0;
 }
 
 .section-title {
@@ -2630,6 +2630,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .post-list .single-post .btns li {
   display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-right: 40px;
   background-color: #fff;
   border: 1px solid #eee;
   padding: 10px 15px;

@@ -99,9 +99,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1><sup>$</sup>70 000 </h1>
+            <h1 style="color: #ffffff!important;">Job Details </h1>
 
-            <span>Job details</span>
+            <!--<span>Job details</span>-->
           </div>
         </div>
       </div>
