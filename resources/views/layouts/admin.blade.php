@@ -18,7 +18,7 @@
         <ul class="side-links">
             <li><a href="/panel"><i class="fa fa-th" aria-hidden="true"></i>&nbsp; &nbsp; <span>Dashboard</span></a></li>
             <li><a href="/users"><i class="fa fa-users" aria-hidden="true"></i>&nbsp; &nbsp;<span>Users</span></a></li>
-            <li><a href=""><i class="fa fa-tasks" aria-hidden="true"></i>&nbsp; &nbsp;<span>Categories</span></a></li>
+            <li><a href="/tasks"><i class="fa fa-tasks" aria-hidden="true"></i>&nbsp; &nbsp;<span>Tasks</span></a></li>
             <li><a href=""><i class="fa fa-comments" aria-hidden="true"></i>&nbsp; &nbsp;<span>Feedback</span></a></li>
             <li><a href=""><i class="fa fa-flag" aria-hidden="true"></i>&nbsp; &nbsp;<span>Reports</span></a></li>
             <li><a href=""><i class="fa fa-user" aria-hidden="true"></i>&nbsp; &nbsp;<span>My Account</span></a></li>

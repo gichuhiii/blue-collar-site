@@ -27,6 +27,16 @@ class Auth extends Controller
         return view('auth.adduser');
     }
 
+    public function add_task()
+    {
+        return view('auth.addtask');
+    }
+
+    public function add_category()
+    {
+        return view('auth.addcategory');
+    }
+
     public function registration(Request $request)
     {
         $request->validate
