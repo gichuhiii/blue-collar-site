@@ -54,27 +54,29 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="/">Home
+                <a class="nav-link" href="/">Create Jobs
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/jobs">Jobs</a>
+                <a class="nav-link" href="">View Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">View Employees</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">My Profile</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
               
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="/about">About Us</a>
-                    <a class="dropdown-item" href="team.html">Team</a>
+                    <a class="dropdown-item" href="/about">Home</a>
+                    <a class="dropdown-item" href="/contact">Contact</a>
+                    <a class="dropdown-item" href="/jobs">Jobs</a>
                     <a class="dropdown-item" href="terms.html">Terms</a>
+
                 </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/login">Login | Register</a>
               </li>
             </ul>
           </div>
@@ -82,7 +84,6 @@
       </nav>
     </header>
 
-    @yield('content')
 
     <!-- Footer Starts Here -->
     <footer>
