@@ -25,3 +25,4 @@ Route::get('/tasks', [Admin::class, 'tasks']);
 Route::get('/categories', [Admin::class, 'categories']);
 Route::get('/jobs',[Main::class, 'jobs']);
 Route::get('/jobdetails',[Main::class, 'jobdetails']);
+Route::get('/employer',[Main::class, 'employer']);
