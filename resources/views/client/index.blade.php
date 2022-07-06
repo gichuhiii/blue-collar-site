@@ -135,7 +135,7 @@
               <div class="right-content">
                 <h2>Become an <em>employer today</em></h2>
                 <p>Need someone to accomplish tasks today? Sign UP as an employer !</p>
-                <a href="/employer" class="filled-button">Become an employer</a>
+                <a href="/register" class="filled-button">Become an employer</a>
               </div>
             </div>
           </div>
