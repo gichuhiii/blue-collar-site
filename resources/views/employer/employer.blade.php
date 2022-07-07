@@ -71,7 +71,7 @@
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
               
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="/about">Home</a>
+                    <a class="dropdown-item" href="/">Home</a>
                     <a class="dropdown-item" href="/contact">Contact</a>
                     <a class="dropdown-item" href="/jobs">Jobs</a>
                     <a class="dropdown-item" href="terms.html">Terms</a>
