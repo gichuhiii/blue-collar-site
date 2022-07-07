@@ -48,7 +48,7 @@ class Main extends Controller
 
     public function employer()
     {
-        return view('client.employer');
+        return view('employer.employer');
     }
 
 }

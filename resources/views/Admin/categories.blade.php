@@ -44,24 +44,6 @@
                     <td style="align-items: right"><a href="#" class="btn">Edit</a></td>
                     <td style="align-items: right"><a href="#" class="btn">Delete</a></td>
                 </tr>
-                <tr>
-                    <td>000001</td>
-                    <td>John</td>
-                    <td style="align-items: right"><a href="#" class="btn">Edit</a></td>
-                    <td style="align-items: right"><a href="#" class="btn">Delete</a></td>
-                </tr>
-                <tr>
-                    <td>000001</td>
-                    <td>John</td>
-                    <td style="align-items: right"><a href="#" class="btn">Edit</a></td>
-                    <td style="align-items: right"><a href="#" class="btn">Delete</a></td>
-                </tr>
-                <tr>
-                    <td>000001</td>
-                    <td>John</td>
-                    <td style="align-items: right"><a href="#" class="btn">Edit</a></td>
-                    <td style="align-items: right"><a href="#" class="btn">Delete</a></td>
-                </tr>
             </table>
         </div>
     </div>
