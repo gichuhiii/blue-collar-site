@@ -50,5 +50,13 @@ class Main extends Controller
     {
         return view('employer.employer');
     }
+    public function createjobs()
+    {
+        return view('employer.createjobs');
+    }
+    public function viewjobs()
+    {
+        return view('employer.viewjobs');
+    }
 
 }
