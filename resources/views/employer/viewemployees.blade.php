@@ -13,15 +13,6 @@
     <link rel="stylesheet" href="{{url('/css/fontawesome.css')}}">
     <link rel="stylesheet" href="{{url('/css/style.css')}}">
     <link rel="stylesheet" href="{{url('/css/owl.css')}}">
-
-    <link rel="stylesheet" href="{{url('css/linearicons.css')}}">
-		<link rel="stylesheet" href="{{url('css/font-awesome.min.css')}}">
-		<link rel="stylesheet" href="{{url('css/bootstrap.css')}}">
-		<link rel="stylesheet" href="{{url('css/magnific-popup.css')}}">
-		<link rel="stylesheet" href="{{url('css/nice-select.css')}}">					
-		<link rel="stylesheet" href="{{url('css/animate.min.css')}}">
-		<link rel="stylesheet" href="{{url('css/owl.carousel.css')}}">
-		<link rel="stylesheet" href="{{url('css/main.css')}}">
   </head>
   <body>
     <!-- ***** Preloader Start ***** -->
@@ -65,13 +56,13 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/employer">Create Jobs</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/viewjobs">View Jobs</a>
+              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="/viewjobs">View Jobs
+                <a class="nav-link" href="/viewemployees">View Employees
                 <span class="sr-only">(current)</span>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/viewemployees">View Employees</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">My Profile</a>
@@ -81,51 +72,9 @@
         </div>
       </nav>
     </header>
-    <!-- Page Content Starts Here -->
-    <div class="page-heading header-text">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 style = "color: #ffffff!important;">Your Jobs</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="post-area section-gap">
-				<div class="container">
-					<div class="row justify-content-center d-flex">
-						<div class="col-lg-8 post-list">
-                            <!-- a job -->
-                    <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<h4>Job name here</h4>
-											<h6>Job Category here</h6>					
-										</div>
-									</div>
-									<p>
-									Job description here and More info here
-									</p>
-									<p class="address">Job location here</p>
-									<p class="address">Job Pay here</p>
-								</div>
-                                <p>
-                                    <a href="#">Edit</a>
-                                </p>
-                                <p>
-                                    <a href="#">Delete</a>
-                                </p>
-							</div>
-                            <!-- Job ends -->
-             
-</div>
-</div>
-</div> 
-  <!-- Page Content ends here -->
+  <p>
+    employees here
+  </p>
 
     <!-- Footer Starts Here -->
     <footer>

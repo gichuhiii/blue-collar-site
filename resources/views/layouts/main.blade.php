@@ -98,15 +98,6 @@
             </ul>
           </div>
           <div class="col-md-3 footer-item">
-            <h4>Useful Links</h4>
-            <ul class="menu-list">
-              <li><a href="#">some link</a></li>
-              <li><a href="#">another link</a></li>
-              <li><a href="#">linky link</a></li>
-              <li><a href="#">oops another link</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 footer-item">
             <h4>Additional Pages</h4>
             <ul class="menu-list">
               <li><a href="#">About Us</a></li>

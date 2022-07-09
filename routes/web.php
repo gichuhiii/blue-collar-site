@@ -26,5 +26,5 @@ Route::get('/categories', [Admin::class, 'categories']);
 Route::get('/jobs',[Main::class, 'jobs']);
 Route::get('/jobdetails',[Main::class, 'jobdetails']);
 Route::get('/employer',[Main::class, 'employer']);
-Route::get('/createjobs',[Main::class, 'createjobs']);
+Route::get('/viewemployees',[Main::class, 'viewemployees']);
 Route::get('/viewjobs',[Main::class, 'viewjobs']);
