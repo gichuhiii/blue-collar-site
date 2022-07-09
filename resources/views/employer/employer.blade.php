@@ -54,29 +54,18 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="/">Create Jobs
+                <a class="nav-link" href="/employer">Create Jobs
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">View Jobs</a>
+                <a class="nav-link" href="\viewjobs">View Jobs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">View Employees</a>
+                <a class="nav-link" href="\viewemployees">View Employees</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">My Profile</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
-              
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="/">Home</a>
-                    <a class="dropdown-item" href="/contact">Contact</a>
-                    <a class="dropdown-item" href="/jobs">Jobs</a>
-                    <a class="dropdown-item" href="terms.html">Terms</a>
-
-                </div>
               </li>
             </ul>
           </div>
@@ -101,21 +90,11 @@
             </ul>
           </div>
           <div class="col-md-3 footer-item">
-            <h4>Useful Links</h4>
-            <ul class="menu-list">
-              <li><a href="#">some link</a></li>
-              <li><a href="#">another link</a></li>
-              <li><a href="#">linky link</a></li>
-              <li><a href="#">oops another link</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 footer-item">
             <h4>Additional Pages</h4>
             <ul class="menu-list">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Terms</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/jobs">Jobs</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
           <div class="col-md-3 footer-item last-item">

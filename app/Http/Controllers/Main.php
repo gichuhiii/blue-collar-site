@@ -50,9 +50,9 @@ class Main extends Controller
     {
         return view('employer.employer');
     }
-    public function createjobs()
+    public function viewemployees()
     {
-        return view('employer.createjobs');
+        return view('employer.viewemployees');
     }
     public function viewjobs()
     {

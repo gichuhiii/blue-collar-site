@@ -56,13 +56,13 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/employer">Create Jobs</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/viewjobs">View Jobs</a>
+              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="/viewjobs">View Jobs
+                <a class="nav-link" href="/viewemployees">View Employees
                 <span class="sr-only">(current)</span>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/viewemployees">View Employees</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">My Profile</a>
@@ -73,7 +73,7 @@
       </nav>
     </header>
   <p>
-    Jobs here
+    employees here
   </p>
 
     <!-- Footer Starts Here -->
