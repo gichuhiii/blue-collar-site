@@ -61,6 +61,7 @@
                         <option value="3" class="item">Admin</option>
                     </select>
                 </div>          
+                
                 <button type="submit" class="btn">Register</button>
                 <p class="text">Already Registered?&nbsp;<a href="/login">Login</a></p>
         </form>

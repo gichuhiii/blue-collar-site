@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="{{url('/css/owl.css')}}">
 
     <link rel="stylesheet" href="{{url('css/linearicons.css')}}">
-			<link rel="stylesheet" href="{{url('css/font-awesome.min.css')}}">
-			<link rel="stylesheet" href="{{url('css/bootstrap.css')}}">
-			<link rel="stylesheet" href="{{url('css/magnific-popup.css')}}">
-			<link rel="stylesheet" href="{{url('css/nice-select.css')}}">					
-			<link rel="stylesheet" href="{{url('css/animate.min.css')}}">
-			<link rel="stylesheet" href="{{url('css/owl.carousel.css')}}">
-			<link rel="stylesheet" href="{{url('css/main.css')}}">
+		<link rel="stylesheet" href="{{url('css/font-awesome.min.css')}}">
+		<link rel="stylesheet" href="{{url('css/bootstrap.css')}}">
+		<link rel="stylesheet" href="{{url('css/magnific-popup.css')}}">
+		<link rel="stylesheet" href="{{url('css/nice-select.css')}}">					
+		<link rel="stylesheet" href="{{url('css/animate.min.css')}}">
+		<link rel="stylesheet" href="{{url('css/owl.carousel.css')}}">
+		<link rel="stylesheet" href="{{url('css/main.css')}}">
   </head>
   <body>
     <!-- ***** Preloader Start ***** -->
