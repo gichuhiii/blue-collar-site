@@ -71,6 +71,18 @@ select {
 figure {
   margin: 0;
 }
+.link a{
+  padding: 15px;
+  color: #fff;
+  background-color: #241757;
+  position: right;
+  float: right;
+}
+.link a:hover{
+  background-color: #fff;
+  color: #000;
+  transition: ease 0.5s;
+}
 
 a {
   -webkit-transition: all 0.3s ease 0s;
