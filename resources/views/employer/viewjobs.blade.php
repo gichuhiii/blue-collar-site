@@ -91,7 +91,9 @@
         </div>
       </div>
     </div>
-
+    <div class="link">
+    <a href="/employer">Add a New Job</a>
+    </div>
     <section class="post-area section-gap">
 				<div class="container">
 					<div class="row justify-content-center d-flex">
