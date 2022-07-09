@@ -72,9 +72,11 @@
         </div>
       </nav>
     </header>
-  <p>This is the employers page
-    
+    <!-- Page content starts here -->
+  <p>
+    This is the employers page
   </p>
+  <!-- Page content ends -->
 
     <!-- Footer Starts Here -->
     <footer>
