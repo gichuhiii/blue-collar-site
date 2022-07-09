@@ -2647,13 +2647,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 500;
   color: #222;
 }
+.post-list .single-post p a{
+  padding: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #222;
+}
+
 
 .post-list .single-post .btns li:hover {
   background-color: #1c2e4a;
 }
 
+
 .post-list .single-post .btns li:hover a, .post-list .single-post .btns li:hover i {
   color: #fff;
+}
+.post-list .single-post :hover a{
+  color: rgba(88, 30, 129, 0.345);
 }
 
 @media (max-width: 414px) {
