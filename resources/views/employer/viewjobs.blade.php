@@ -123,6 +123,56 @@
                                 </p>
 							</div>
                             <!-- Job ends -->
+                                <!-- a job -->
+                    <div class="single-post d-flex flex-row">
+								<div class="thumb">
+								</div>
+								<div class="details">
+									<div class="title d-flex flex-row justify-content-between">
+										<div class="titles">
+											<h4>Job name here</h4>
+											<h6>Job Category here</h6>					
+										</div>
+									</div>
+									<p>
+									Job description here and More info here
+									</p>
+									<p class="address">Job location here</p>
+									<p class="address">Job Pay here</p>
+								</div>
+                                <p>
+                                    <a href="#">Edit</a>
+                                </p>
+                                <p>
+                                    <a href="#">Delete</a>
+                                </p>
+							</div>
+                            <!-- Job ends -->
+                                <!-- a job -->
+                    <div class="single-post d-flex flex-row">
+								<div class="thumb">
+								</div>
+								<div class="details">
+									<div class="title d-flex flex-row justify-content-between">
+										<div class="titles">
+											<h4>Job name here</h4>
+											<h6>Job Category here</h6>					
+										</div>
+									</div>
+									<p>
+									Job description here and More info here
+									</p>
+									<p class="address">Job location here</p>
+									<p class="address">Job Pay here</p>
+								</div>
+                                <p>
+                                    <a href="#">Edit</a>
+                                </p>
+                                <p>
+                                    <a href="#">Delete</a>
+                                </p>
+							</div>
+                            <!-- Job ends -->
              
 </div>
 </div>
