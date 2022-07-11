@@ -161,6 +161,7 @@
 									</div>
 									<p>
 									Job description here and More info here
+                
 									</p>
 									<p class="address">Job location here</p>
 									<p class="address">Job Pay here</p>
