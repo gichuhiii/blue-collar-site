@@ -8,9 +8,9 @@
           <div class="item item-1">
             <div class="img-fill">
                 <div class="text-content">
-                  <h6>lorem ipsum dolor sit amet!</h6>
-                  <h4>Quam temporibus accusam <br> hic ducimus quia</h4>
-                  <p>Magni deserunt dolorem consectetur adipisicing elit. Corporis molestiae optio, laudantium odio quod rerum maiores, omnis unde quae illo.</p>
+                  <h6>Welcome to TaskIt</h6>
+                  <h4>Check Out Available <br>Jobs</h4>
+                  <p>Take up a Job and earn</p>
                   <a href="/jobs" class="filled-button">Jobs</a>
                 </div>
             </div>
@@ -20,11 +20,11 @@
           <div class="item item-2">
             <div class="img-fill">
                 <div class="text-content">
-                  <h6>magni deserunt dolorem harum quas!</h6>
-                  <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa cupiditate mollitia adipisci assumenda laborum eius quae quo excepturi, eveniet. Dicta nulla ea beatae consequuntur?</p>
-                  <a href="about.html" class="filled-button">About Us</a>
-                </div>
+                  <h6>Welcome to TaskIt</h6>
+                  <h4>Register as an<br> Employer today !</h4>
+                  <p>Need an extra hand ? Create a job and let someone to do the work for you.</p>
+                  <a href="#" class="filled-button">SignUp as an employer</a>
+</div>
             </div>
           </div>
           <!-- // Item -->
@@ -32,10 +32,10 @@
           <div class="item item-3">
             <div class="img-fill">
                 <div class="text-content">
-                  <h6>alias officia qui quae vitae natus!</h6>
-                  <h4>Lorem ipsum dolor <br>sit amet, consectetur.</h4>
-                  <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate mi. Sed nec cursus augue. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</p>
-                  <a href="contact.html" class="filled-button">Contact Us</a>
+                  <h6>Welcome to TaskIt</h6>
+                  <h4>Any enquiry or<br>Feedback?</h4>
+                  <p>Send us an email and we will get back to you.</p>
+                  <a href="/contact" class="filled-button">Contact Us</a>
                 </div>
             </div>
           </div>
@@ -49,7 +49,6 @@
         <div class="row">
           <div class="col-md-8">
             <h4>Request a call back right now ?</h4>
-            <span>Don't forget to change button route.</span>
           </div>
           <div class="col-md-4">
             <a href="/contact" class="border-button">Contact Us</a>

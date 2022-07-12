@@ -158,7 +158,7 @@
 								<div class="details">
 									<div class="title d-flex flex-row justify-content-between">
 										<div class="titles">
-											<a href="single.html"><h4>Test Job 2</h4></a>
+											<a href="single.html"><h4>Test Job 3</h4></a>
 											<h6>Cutting Grass</h6><br>				
 										</div>
 										<ul class="btns">

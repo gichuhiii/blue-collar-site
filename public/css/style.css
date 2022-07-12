@@ -442,15 +442,15 @@ header .navbar
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slider-image-1-1920x900.jpg);
+	background-image: url(../images/kenya6.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slider-image-2-1920x900.jpg);
+	background-image: url(../images/kenya7.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slider-image-3-1920x900.jpg);
+	background-image: url(../images/kenya5.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -1143,7 +1143,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/banner-image-1-1920x500.jpg);
+	background-image: url(../images/kenya11.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
