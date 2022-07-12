@@ -24,7 +24,7 @@
                   <h4>Register as an<br> Employer today !</h4>
                   <p>Need an extra hand ? Create a job and let someone to do the work for you.</p>
                   <a href="#" class="filled-button">SignUp as an employer</a>
-</div>
+            </div>
             </div>
           </div>
           <!-- // Item -->
