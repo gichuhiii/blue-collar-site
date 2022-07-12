@@ -127,7 +127,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="left-image">
-                <img src="{{url('/images/about-1-570x350.jpg')}}" class="img-fluid" alt="">
+                <img src="{{url('/images/employer.jpg')}}" class="img-fluid" alt="">
               </div>
             </div>
             <div class="col-md-6 align-self-center">

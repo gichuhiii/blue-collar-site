@@ -70,16 +70,8 @@
                 <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-              
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="/about">About Us</a>
-                    <a class="dropdown-item" href="team.html">Team</a>
-                    <a class="dropdown-item" href="blog.html">Blog</a>
-                    <a class="dropdown-item" href="testimonials.html">Testimonials</a>
-                    <a class="dropdown-item" href="terms.html">Terms</a>
-                </div>
+              <li class="nav-item ">              
+                    <a class="nav-link" href="/about">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact Us</a>
@@ -100,8 +92,6 @@
         <div class="row">
           <div class="col-md-12">
             <h1 style="color: #ffffff!important;">Job Details </h1>
-
-            <!--<span>Job details</span>-->
           </div>
         </div>
       </div>
@@ -135,7 +125,7 @@
             </div>
             <br>
 
-            <a href="property-details.html" class="filled-button text-center" style="display: block">Apply for this Job</a>
+            <a href="#" class="filled-button text-center" style="display: block">Apply for this Job</a>
 
             <br>
           </div>

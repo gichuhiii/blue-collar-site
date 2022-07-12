@@ -61,14 +61,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="/jobs">Jobs</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-              
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="/about">About Us</a>
-                    <a class="dropdown-item" href="team.html">Team</a>
-                    <a class="dropdown-item" href="terms.html">Terms</a>
-                </div>
+              <li class="nav-item ">              
+                    <a class="nav-link" href="/about">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact Us</a>
