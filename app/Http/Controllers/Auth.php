@@ -198,8 +198,8 @@ class Auth extends Controller
             $job_pay = $request->input('job_pay');
             $data=array('job_name'=>$job_name,'job_category'=>$job_category,'job_desc'=>$job_desc,'job_location'=>$job_location,'more_info'=>$more_info,'job_pay'=>$job_pay);
             DB::table('created_jobs')->insert($data);
-
-            return redirect('viewjobs')->with('success','Job created successfully');
+            echo "Job added successfully";
+            return redirect('viewjobs');
     }
 
 }
