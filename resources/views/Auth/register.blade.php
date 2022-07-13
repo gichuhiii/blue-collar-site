@@ -55,11 +55,7 @@
                     </select>
                 </div>
                 <div class="form-control">
-                    <select name="user_role" id="user_role">
-                        <option value="1" class="item">Employer</option>
-                        <option value="2" class="item">Employee</option>
-                        <option value="3" class="item">Admin</option>
-                    </select>
+                    <input type="hidden" name="user_role" value="{{$role}}">
                 </div>          
                 
                 <button type="submit" class="btn">Register</button>

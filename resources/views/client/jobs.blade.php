@@ -97,7 +97,7 @@
       </div>
     </div>
     <div class="link">
-    <a href="#">Become an employer</a>
+    <a href="/register/employer">Become an employer</a>
     </div>
     <section class="post-area section-gap">
 				<div class="container">

@@ -17,9 +17,10 @@ class Auth extends Controller
         return view('auth.login');
     }
 
-    public function register()
+    public function register(string $role=null)
     {
-        return view('auth.register');
+        $role=!in_array($role,["employee","employer"])?"employee":$role;
+        return view('auth.register',["role"=>$role]);
     }
 
     public function add_user()
