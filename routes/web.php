@@ -28,3 +28,4 @@ Route::get('/jobdetails',[Main::class, 'jobdetails']);
 Route::get('/employer',[Main::class, 'employer']);
 Route::get('/viewemployees',[Main::class, 'viewemployees']);
 Route::get('/viewjobs',[Main::class, 'viewjobs']);
+Route::get('/dashboarde', [Main::class, 'employee']);
