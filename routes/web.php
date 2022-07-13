@@ -10,7 +10,7 @@ Route::get('/contact', [Main::class, 'contact']);
 Route::post('/sendMessage', [Main::class, 'sendEmail'])->name('contact.send');
 Route::get('/about', [Main::class, 'about']);
 Route::get('/login', [Auth::class, 'login']);
-Route::get('/register', [Auth::class, 'register']);
+Route::get('/register/{role?}', [Auth::class, 'register']);
 Route::post('/registration', [Auth::class, 'registration'])->name('registration');
 Route::post('loginuser', [Auth::class, 'loginuser'])->name('loginuser');
 Route::get('/dashboard', [Auth::class, 'dashboard'])->middleware('isLoggedIn');

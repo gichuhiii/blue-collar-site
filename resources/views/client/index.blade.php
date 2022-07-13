@@ -23,8 +23,8 @@
                   <h6>Welcome to TaskIt</h6>
                   <h4>Register as an<br> Employer today !</h4>
                   <p>Need an extra hand ? Create a job and let someone to do the work for you.</p>
-                  <a href="#" class="filled-button">SignUp as an employer</a>
-</div>
+                  <a href="/register/employer" class="filled-button">SignUp as an employer</a>
+            </div>
             </div>
           </div>
           <!-- // Item -->
@@ -127,14 +127,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="left-image">
-                <img src="{{url('/images/about-1-570x350.jpg')}}" class="img-fluid" alt="">
+                <img src="{{url('/images/employer.jpg')}}" class="img-fluid" alt="">
               </div>
             </div>
             <div class="col-md-6 align-self-center">
               <div class="right-content">
                 <h2>Become an <em>employer today</em></h2>
                 <p>Need someone to accomplish tasks today? Sign UP as an employer !</p>
-                <a href="/register" class="filled-button">Become an employer</a>
+                <a href="/register/employer" class="filled-button">Become an employer</a>
               </div>
             </div>
           </div>
