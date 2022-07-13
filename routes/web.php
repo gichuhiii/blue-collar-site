@@ -29,3 +29,4 @@ Route::get('/employer',[Main::class, 'employer']);
 Route::get('/viewemployees',[Main::class, 'viewemployees']);
 Route::get('/viewjobs',[Main::class, 'viewjobs']);
 Route::get('/dashboarde', [Main::class, 'employee']);
+Route::post('/job', [Auth::class, 'job'])->name('job');
