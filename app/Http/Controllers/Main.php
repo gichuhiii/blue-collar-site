@@ -59,4 +59,9 @@ class Main extends Controller
         return view('employer.viewjobs');
     }
 
+    public function employee()
+    {
+        return view('employee.dashboarde');
+    } 
+
 }
