@@ -11,8 +11,8 @@ class Admin extends Controller
         return view('admin.panel');
     }
 
-    public function view_user()
+    /*public function view_user()
     {
         return view('admin.users');
-    }
+    }*/
 }
