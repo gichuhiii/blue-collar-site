@@ -15,6 +15,8 @@
                 <h2>All Users</h2>
                 <a href="/adduser" class="btn">Add User</a>
             </div>
+
+            <span>{{Session::get('user_update')}}</span>
             <table>
                 <tr>
                     <th>User Id</th>
@@ -27,7 +29,23 @@
                     <th>Edit</th>
                     <th>Delete</th>
                 </tr>
-                <tr>
+
+                @foreach($user as $user)
+
+                    <tr>
+                        <td>{{$user->id}}</td>
+                        <td>{{$user->first_name}}</td>
+                        <td>{{$user->last_name}}</td>
+                        <td>{{$user->email}}</td>
+                        <td>{{$user->phone_number}}</td>
+                        <td>{{$user->user_role}}</td>
+                        <td>{{$user->gender}}</td>
+                        <td style="align-items: right"><a href="/edit-user/{{$user->id}}" class="btn">Edit</a></td>
+                        <td style="align-items: right"><a href="/delete-user/{{$user->id}}" class="btn">Delete</a></td>
+                    </tr>
+
+                @endforeach
+            <!--  <tr>
                     <td>000001</td>
                     <td>John</td>
                     <td>Doe</td>
@@ -103,7 +121,7 @@
                     <td>1</td>
                     <td style="align-items: right"><a href="#" class="btn">Edit</a></td>
                     <td style="align-items: right"><a href="#" class="btn">Delete</a></td>
-                </tr>
+                </tr>-->
             </table>
         </div>
     </div>
