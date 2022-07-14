@@ -10,13 +10,13 @@
 
 <div class="wrapper">
     <div class="left">
-        <h4>Jane Doe</h4>
-         <p>Employee</p>
+        <h4><span>{{$data->first_name}} </span><span>{{$data->last_name}}</span></h4>
+         <p>{{$data->user_role}}</p>
          <ul class="nav">
             <li><a href="">Edit</a></li>
             <li><a href="">Home</a></li>
             <li><a href="">Delete</a></li>
-            <li><a href="">Logout</a></li>
+            <li><a href="/logout">Logout</a></li>
          </ul>
     </div>
     <div class="right">
@@ -25,31 +25,31 @@
             <div class="info_data">
                 <div class="data">
                    <h4>First Name</h4>
-                   <p>Jane</p>
+                   <p>{{$data->first_name}}</p>
                 </div>
                 <div class="data">
                   <h4>Last Name</h4>
-                   <p>Doe</p>
+                   <p>{{$data->last_name}}</p>
              </div>
            </div>
             <div class="info_data">
                  <div class="data">
                     <h4>Email</h4>
-                    <p>alex@gmail.com</p>
+                    <p>{{$data->email}}</p>
                  </div>
                  <div class="data">
                    <h4>Phone</h4>
-                    <p>0001-213-998761</p>
+                    <p>{{$data->phone_number}}</p>
               </div>
             </div>
             <div class="info_data">
                 <div class="data">
                    <h4>User Type</h4>
-                   <p>Employer</p>
+                   <p>{{$data->user_role}}</p>
                 </div>
                 <div class="data">
                   <h4>Gender</h4>
-                   <p>F</p>
+                   <p>{{$data->gender}}</p>
              </div>
            </div>
         </div>

@@ -64,9 +64,4 @@ class Main extends Controller
         return view('employee.dashboarde');
     } 
 
-    public function profile()
-    {
-        return view('employee.profile');
-    }
-
 }
