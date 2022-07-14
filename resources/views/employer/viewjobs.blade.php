@@ -99,7 +99,7 @@
 					<div class="row justify-content-center d-flex">
 						<div class="col-lg-8 post-list">
           
-            <!-- a job -->
+            <!-- jobs here -->
                             @foreach($job as $job)
                     <div class="single-post d-flex flex-row">
 								<div class="thumb">
