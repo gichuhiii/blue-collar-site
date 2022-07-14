@@ -9,7 +9,7 @@ use Session;
 use Mail;
 use App\Mail\EmailVerificationMail;
 use Illuminate\Support\Str;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 class Auth extends Controller
 {
@@ -139,6 +139,16 @@ class Auth extends Controller
         return view('client.dashboard', compact('data'));
     }
 
+    public function profile()
+    {
+        $data = array();
+        if(Session::has('loginId'))
+        {
+            $data = User::where('id', '=', Session::get('loginId'))->first();
+        }
+        return view('employee.profile', compact('data'));
+    }
+
     public function logout()
     {
         if(Session::has('loginId'))
@@ -202,4 +212,40 @@ class Auth extends Controller
             return redirect('viewjobs');
     }
 
+
+    public function usersList()
+    {
+        $user = DB::table('users')->get();
+        return view('admin.users', compact('user'));
+    }
+
+    public function editUser($id)
+    {
+        $user = DB::table('users')->where('id', $id)->first();
+        return view('auth.edit-user', compact('user'));
+    }
+
+    public function deleteUser($id)
+    {
+        DB::table('users')->where('id', $id)->delete();
+        return back()->with('user_delete', 'User Removed');
+    }
+
+    public function updateUser(Request $request)
+    {
+        DB::table('users')->where('id', $request->id)->update
+        (
+            [
+                'first_name'=>$request->first_name,
+                'last_name'=>$request->last_name,
+                'password'=>$request->password,
+                'email'=>$request->email,
+                'phone_number'=>$request->phone_number,
+                'user_role'=>$request->user_role,
+                'gender'=>$request->gender
+            ]
+        );
+
+    return back()->with('user_update', 'Successful Update');
+    }
 }

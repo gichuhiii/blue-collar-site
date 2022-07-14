@@ -11,18 +11,8 @@ class Admin extends Controller
         return view('admin.panel');
     }
 
-    public function view_user()
+    /*public function view_user()
     {
         return view('admin.users');
-    }
-
-    public function tasks()
-    {
-        return view('admin.tasks');
-    }
-
-    public function categories()
-    {
-        return view('admin.categories');
-    }
+    }*/
 }
