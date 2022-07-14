@@ -20,7 +20,7 @@
             <li><a href="/users"><i class="fa fa-users" aria-hidden="true"></i>&nbsp; &nbsp;<span>Users</span></a></li>
             <li><a href=""><i class="fa fa-flag" aria-hidden="true"></i>&nbsp; &nbsp;<span>Reports</span></a></li>
             <li><a href=""><i class="fa fa-user" aria-hidden="true"></i>&nbsp; &nbsp;<span>My Account</span></a></li>
-            <li><a href=""><i class="fa fa-cog" aria-hidden="true"></i>&nbsp; &nbsp;<span>Settings</span></a></li>
+            <li><a href=""><i class="fa fa-cog" aria-hidden="true"></i>&nbsp; &nbsp;<span>Logout</span></a></li>
         </ul>
     </div>
     <div class="container">
