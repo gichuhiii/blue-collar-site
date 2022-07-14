@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Mail;
 use App\Mail\ContactMail;
+use DB;
 
 class Main extends Controller
 {
@@ -56,7 +57,8 @@ class Main extends Controller
     }
     public function viewjobs()
     {
-        return view('employer.viewjobs');
+        $job = DB:: select('select * from created_jobs');
+        return view('employer.viewjobs',['job'=>$job]);
     }
 
     public function employee()

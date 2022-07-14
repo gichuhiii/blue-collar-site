@@ -98,22 +98,24 @@
 				<div class="container">
 					<div class="row justify-content-center d-flex">
 						<div class="col-lg-8 post-list">
-                            <!-- a job -->
+          
+            <!-- jobs here -->
+                            @foreach($job as $job)
                     <div class="single-post d-flex flex-row">
 								<div class="thumb">
 								</div>
 								<div class="details">
 									<div class="title d-flex flex-row justify-content-between">
 										<div class="titles">
-											<h4>Job name here</h4>
-											<h6>Job Category here</h6>					
+											<h4>{{$job->job_name}}</h4>
+											<h6>{{$job->job_category}}</h6>					
 										</div>
 									</div>
 									<p>
-									Job description here and More info here
+									{{$job->job_desc}}
 									</p>
-									<p class="address">Job location here</p>
-									<p class="address">Job Pay here</p>
+									<p class="address">{{$job->job_location}}</p>
+									<p class="address">{{$job->job_pay}}</p>
 								</div>
                                 <p>
                                     <a href="#">Edit</a>
@@ -122,59 +124,8 @@
                                     <a href="#">Delete</a>
                                 </p>
 							</div>
-                            <!-- Job ends -->
-                                <!-- a job -->
-                    <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<h4>Job name here</h4>
-											<h6>Job Category here</h6>					
-										</div>
-									</div>
-									<p>
-									Job description here and More info here
-									</p>
-									<p class="address">Job location here</p>
-									<p class="address">Job Pay here</p>
-								</div>
-                                <p>
-                                    <a href="#">Edit</a>
-                                </p>
-                                <p>
-                                    <a href="#">Delete</a>
-                                </p>
-							</div>
-                            <!-- Job ends -->
-                                <!-- a job -->
-                    <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<h4>Job name here</h4>
-											<h6>Job Category here</h6>					
-										</div>
-									</div>
-									<p>
-									Job description here and More info here
-                
-									</p>
-									<p class="address">Job location here</p>
-									<p class="address">Job Pay here</p>
-								</div>
-                                <p>
-                                    <a href="#">Edit</a>
-                                </p>
-                                <p>
-                                    <a href="#">Delete</a>
-                                </p>
-							</div>
-                            <!-- Job ends -->
-             
+              @endforeach
+    <!-- Job ends -->
 </div>
 </div>
 </div> 

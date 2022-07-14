@@ -57,70 +57,6 @@
       </div>
     </div>
 
-    <div class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>Featured <em>Jobs</em></h2>
-              <span>Aliquam id urna imperdiet libero mollis hendrerit</span>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-item">
-              <img src="{{url('/images/product-1-720x480.jpg')}}" alt="">
-              <div class="down-content">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <div style="margin-bottom:10px;">
-                  <span> <sup>$</sup>70 000  </span>
-                </div>
-
-                <p>Medical  /  Health Jobs</p>
-
-                <a href="property-details.html" class="filled-button">View More</a>
-              </div>
-            </div>
-
-            <br>
-          </div>
-          <div class="col-md-4">
-            <div class="service-item">
-              <img src="{{url('/images/product-2-720x480.jpg')}}" alt="">
-              <div class="down-content">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <div style="margin-bottom:10px;">
-                  <span> <sup>$</sup>70 000  </span>
-                </div>
-
-                <p>Medical  /  Health Jobs</p>
-
-                <a href="property-details.html" class="filled-button">View More</a>
-              </div>
-            </div>
-
-            <br>
-          </div>
-          <div class="col-md-4">
-            <div class="service-item">
-              <img src="{{url('/images/product-3-720x480.jpg')}}" alt="">
-              <div class="down-content">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <div style="margin-bottom:10px;">
-                  <span> <sup>$</sup>70 000  </span>
-                </div>
-
-                <p>Medical  /  Health Jobs</p>
-
-                <a href="property-details.html" class="filled-button">View More</a>
-              </div>
-            </div>
-
-            <br>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="fun-facts">
       <div class="container">
         <div class="more-info-content">
@@ -136,61 +72,6 @@
                 <p>Need someone to accomplish tasks today? Sign UP as an employer !</p>
                 <a href="/register/employer" class="filled-button">Become an employer</a>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="testimonials">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>What they say <em>about us</em></h2>
-              <span>testimonials from our greatest clients</span>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="owl-testimonials owl-carousel">
-              
-              <div class="testimonial-item">
-                <div class="inner-content">
-                  <h4>George Walker</h4>
-                  <span>Chief Financial Analyst</span>
-                  <p>"Nulla ullamcorper, ipsum vel condimentum congue, mi odio vehicula tellus, sit amet malesuada justo sem sit amet quam. Pellentesque in sagittis lacus."</p>
-                </div>
-                <img src="http://placehold.it/60x60" alt="">
-              </div>
-              
-              <div class="testimonial-item">
-                <div class="inner-content">
-                  <h4>John Smith</h4>
-                  <span>Market Specialist</span>
-                  <p>"In eget leo ante. Sed nibh leo, laoreet accumsan euismod quis, scelerisque a nunc. Mauris accumsan, arcu id ornare malesuada, est nulla luctus nisi."</p>
-                </div>
-                <img src="http://placehold.it/60x60" alt="">
-              </div>
-              
-              <div class="testimonial-item">
-                <div class="inner-content">
-                  <h4>David Wood</h4>
-                  <span>Chief Accountant</span>
-                  <p>"Ut ultricies maximus turpis, in sollicitudin ligula posuere vel. Donec finibus maximus neque, vitae egestas quam imperdiet nec. Proin nec mauris eu tortor consectetur tristique."</p>
-                </div>
-                <img src="http://placehold.it/60x60" alt="">
-              </div>
-              
-              <div class="testimonial-item">
-                <div class="inner-content">
-                  <h4>Andrew Boom</h4>
-                  <span>Marketing Head</span>
-                  <p>"Curabitur sollicitudin, tortor at suscipit volutpat, nisi arcu aliquet dui, vitae semper sem turpis quis libero. Quisque vulputate lacinia nisl ac lobortis."</p>
-                </div>
-                <img src="http://placehold.it/60x60" alt="">
-              </div>
-              
             </div>
           </div>
         </div>
