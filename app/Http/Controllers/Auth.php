@@ -139,6 +139,16 @@ class Auth extends Controller
         return view('client.dashboard', compact('data'));
     }
 
+    public function profile()
+    {
+        $data = array();
+        if(Session::has('loginId'))
+        {
+            $data = User::where('id', '=', Session::get('loginId'))->first();
+        }
+        return view('employee.profile', compact('data'));
+    }
+
     public function logout()
     {
         if(Session::has('loginId'))
