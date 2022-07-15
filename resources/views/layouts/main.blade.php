@@ -68,7 +68,7 @@
                 <a class="nav-link" href="/contact">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/login">Login | Register</a>
+                <a class="nav-link" href="/login">Login | Register as an employee</a>
               </li>
             </ul>
           </div>
