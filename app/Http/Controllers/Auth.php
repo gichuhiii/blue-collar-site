@@ -186,6 +186,32 @@ class Auth extends Controller
             }
         }
     }
+    public function job(Request $request)
+    {
+        $request->validate
+        (
+            [
+                'job_name'=>'required',
+                'job_category'=>'required',
+                'job_desc'=>'required',
+                'job_location'=>'required',
+                'more_info'=>'required',
+                'job_pay'=>'required',
+            ]
+        );
+
+            $job_name = $request->input('job_name');
+            $job_category= $request->input('job_category');
+            $job_desc=$request->input('job_desc');
+            $job_location =$request->input('job_location');
+            $more_info = $request->input('more_info');
+            $job_pay = $request->input('job_pay');
+            $data=array('job_name'=>$job_name,'job_category'=>$job_category,'job_desc'=>$job_desc,'job_location'=>$job_location,'more_info'=>$more_info,'job_pay'=>$job_pay);
+            DB::table('created_jobs')->insert($data);
+            echo "Job added successfully";
+            return redirect('viewjobs');
+    }
+
 
     public function usersList()
     {
