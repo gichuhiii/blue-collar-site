@@ -115,6 +115,7 @@
 									{{$job->job_desc}}
 									</p>
 									<p class="address">{{$job->job_location}}</p>
+
 									<p class="address">{{$job->job_pay}}</p>
 								</div>
                                 <p>
@@ -144,6 +145,7 @@
               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
+          
           <div class="col-md-3 footer-item">
             <h4>Additional Pages</h4>
             <ul class="menu-list">
@@ -151,6 +153,7 @@
               <li><a href="/jobs">Jobs</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>
+
           </div>
           <div class="col-md-3 footer-item last-item">
             <h4>Contact Us</h4>
