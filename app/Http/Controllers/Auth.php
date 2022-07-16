@@ -200,6 +200,7 @@ class Auth extends Controller
             ]
         );
 
+
             $job_name = $request->input('job_name');
             $job_category= $request->input('job_category');
             $job_desc=$request->input('job_desc');

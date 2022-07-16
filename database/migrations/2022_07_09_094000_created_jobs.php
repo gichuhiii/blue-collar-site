@@ -22,6 +22,7 @@ return new class extends Migration
         $table->text('more_info')->nullable();
         $table->string('job_pay');
         $table->timestamps();
+        $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

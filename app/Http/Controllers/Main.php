@@ -39,7 +39,8 @@ class Main extends Controller
 
     public function jobs()
     {
-        return view('client.jobs');
+        $job = DB:: select('select * from created_jobs');
+        return view('client.jobs',['job'=>$job]);
     }
 
     public function jobdetails()
