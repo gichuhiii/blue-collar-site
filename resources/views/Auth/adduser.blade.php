@@ -38,9 +38,9 @@
                     </select>
                     <label for="user_role">Role</label>
                     <select name="user_role" id="user_role">
-                        <option value="1" class="item">Employer</option>
-                        <option value="2" class="item">Employee</option>
-                        <option value="3" class="item">Admin</option>
+                        <option value="employer" class="item">Employer</option>
+                        <option value="employee" class="item">Employee</option>
+                        <option value="admin" class="item">Admin</option>
                     </select>    
             <button type="submit">Sign Up</button><br>
         </form>
