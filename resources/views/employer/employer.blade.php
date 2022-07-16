@@ -27,14 +27,8 @@
                     <label>Job Name</label>
                 </div>
                 <div class="form-control">
-                    <select name="job_category" id="job_category">
-                        <option value="1" class="item">Maintenance</option>
-                        <option value="2" class="item">Construction</option>
-                        <option value="3" class="item">House keeping</option>
-                        <option value="4" class="item">Baby sitting</option>
-                        <option value="5" class="item">Shopping</option>
-                        <option value="5" class="item">Hair Care</option>
-                    </select>
+                <input type="text" name="job_category" required>
+                    <label>Job Category</label>
                 </div>         
                 <div class="form-control">
                     <input type="text" name="job_desc" required>

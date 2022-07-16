@@ -104,68 +104,30 @@
 					<div class="row justify-content-center d-flex">
 						<div class="col-lg-8 post-list">
 
+            <!-- jobs here -->
+            
+            @foreach($job as $job)
     <div class="single-post d-flex flex-row">
 								<div class="thumb">
 								</div>
 								<div class="details">
 									<div class="title d-flex flex-row justify-content-between">
 										<div class="titles">
-											<a href="single.html"><h4>Test Job 1 </h4></a>
-											<h6>Mama Fua </h6>					
+											<a href="single.html"><h4>{{$job->job_name}}</h4></a>
+											<h6>{{$job->job_category}}</h6>					
 										</div>
 										<ul class="btns">
 											<li><a href="/jobdetails">Apply</a></li>
 										</ul>
 									</div>
 									<p>
-									Need someone to was my clothes. Kuja unifulie nguo please. I will pay well.
+									{{$job->job_desc}}
 									</p>
-									<p class="address">Nairobi. Kenya</p>
-									<p class="address">Kshs. 1000 - 2000</p>
+									<p class="address">{{$job->job_location}}</p>
+									<p class="address">{{$job->job_pay}}</p>
 								</div>
 							</div>
-
-              <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<a href="single.html"><h4>Test Job 2</h4></a>
-											<h6>Washing Dishes</h6>					
-										</div>
-										<ul class="btns">
-											<li><a href="/jobdetails">Apply</a></li>
-										</ul>
-									</div>
-									<p>
-									Had a party last night and need my doshes cleaned.Lorem ipsum dolor sit amet.
-									</p>
-									<p class="address">Far Far Away in Nairobi</p>
-									<p class="address">Kshs. 800 - 1500</p>
-								</div>
-							</div>
-
-              <div class="single-post d-flex flex-row">
-								<div class="thumb">
-								</div>
-								<div class="details">
-									<div class="title d-flex flex-row justify-content-between">
-										<div class="titles">
-											<a href="single.html"><h4>Test Job 3</h4></a>
-											<h6>Cutting Grass</h6><br>				
-										</div>
-										<ul class="btns">
-											<li><a href="/jobdetails">Apply</a></li>
-										</ul>
-									</div>
-									<p>
-									My grass is haboring mosquitoes I need someone to cut it for me.
-									</p>
-									<p class="address"> Nairobi, Kenya</p>
-									<p class="address">Kshs. 2000 - 3000</p>
-								</div>
-							</div>
+              @endforeach
 </div>
 </div>
 </div> 
