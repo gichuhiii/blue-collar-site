@@ -496,11 +496,44 @@ body {
 /* MAIN */
 /* CONTENT */
 
-
-
-
-
-
+.reportcard
+{
+	font-family: 'Poppins', sans-serif;
+	align-content: center;
+	width: 550px;
+	margin-top: 10%;
+	margin-left: 25%;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	padding: 50px;
+}
+.reportcard h1
+{
+	padding: 20px 0;
+	text-align: center;
+	font-size: 35px;
+	color: #00214A;
+}
+.reportcard textarea
+{
+	padding: 20px 10px;
+	border-radius: 20px;
+	width: 100%;
+}
+.reportcard button
+{
+	font-family: 'Poppins', sans-serif;
+	margin: 20px 0;
+	padding: 10px 0;
+	width: 100%;
+	border: none;
+	color: #ffffff;
+	background: #00214A;
+}
+.reportcard button:hover
+{
+	background: #ea25b5;
+}
 
 
 

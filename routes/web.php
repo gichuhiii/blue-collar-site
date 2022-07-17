@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Main;
 use App\Http\Controllers\Auth;
 use App\Http\Controllers\Admin;
+use App\Http\Controllers\Report;
 
 Route::get('/', [Main::class, 'index']);
 Route::get('/contact', [Main::class, 'contact']);
@@ -35,3 +36,4 @@ Route::get('/dashboarde', [Main::class, 'employee']);
 Route::post('/job', [Auth::class, 'job'])->name('job');
 Route::get('/profile', [Auth::class, 'profile'])->middleware('isLoggedIn');
 Route::get('/profilea', [Auth::class, 'profilea'])->middleware('isLoggedIn');
+Route::get('/report', [Report::class, 'report']);
