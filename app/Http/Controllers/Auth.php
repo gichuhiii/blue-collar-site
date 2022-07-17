@@ -10,6 +10,7 @@ use Mail;
 use App\Mail\EmailVerificationMail;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth as AuthFacade;
 
 class Auth extends Controller
 {
@@ -87,46 +88,58 @@ class Auth extends Controller
                 'password'=>'required|min:8|max:20',
             ]
          );
+         if (!auth()->attempt(['email' => $request->email, 'password' => $request->password])) {
+            return back()->with('fail', 'Oops!! There seems to be a problem');
+         }
+         $request->session()->regenerate();
+         $route=match(AuthFacade::user()->user_role){
+            "employee"=>"/dashboarde",
+            "employer"=>"/viewjobs",
+            "admin"=>"/panel",
+            default=>"/logout"
+         };
+            return redirect($route);
 
-         $user = User::where('email', '=', $request->email)->first();
-         if(!$user)
-         {
-            return back()->with('fail', 'Email not registered');
-         }
-         else
-         {
-            if(!$user->email_verified_at)
-            {
-                return back()->with('fail', 'Email not verified');
-            }
-            else
-            {
-                if(!$user->is_active)
-                {
-                    return back()->with('fail', 'User not active. Contact admin.');
-                }
-                else
-                {
-                    if($user)
-                    {
-                      if(Hash::check($request->password, $user->password))
-                      {
-                           $request->session()->put('loginId', $user->id);
-                           return redirect('dashboard');
-                      }
-                      else
-                      {
-                           return back()->with('fail', 'The password is incorrect');
-                      }
-                    }
+
+        //  $user = User::where('email', '=', $request->email)->first();
+        //  if(!$user)
+        //  {
+        //     return back()->with('fail', 'Email not registered');
+        //  }
+        //  else
+        //  {
+        //     if(!$user->email_verified_at)
+        //     {
+        //         return back()->with('fail', 'Email not verified');
+        //     }
+        //     else
+        //     {
+        //         if(!$user->is_active)
+        //         {
+        //             return back()->with('fail', 'User not active. Contact admin.');
+        //         }
+        //         else
+        //         {
+        //             if($user)
+        //             {
+        //               if(Hash::check($request->password, $user->password))
+        //               {
+        //                    $request->session()->put('loginId', $user->id);
+        //                    return redirect('dashboard');
+        //               }
+        //               else
+        //               {
+        //                    return back()->with('fail', 'The password is incorrect');
+        //               }
+        //             }
            
-                    else
-                    {
-                           return back()->with('fail', 'Invalid Credentials');
-                    }
-                }
-            }
-         }
+        //             else
+        //             {
+        //                    return back()->with('fail', 'Invalid Credentials');
+        //             }
+        //         }
+        //     }
+        //  }
     }
 
     public function dashboard()
@@ -136,7 +149,7 @@ class Auth extends Controller
         {
             $data = User::where('id', '=', Session::get('loginId'))->first();
         }
-        return view('client.dashboard', compact('data'));
+        return view('employer.employer', compact('data'));
     }
 
     public function profile()
@@ -199,16 +212,15 @@ class Auth extends Controller
                 'job_pay'=>'required',
             ]
         );
-
-
-            $job_name = $request->input('job_name');
-            $job_category= $request->input('job_category');
-            $job_desc=$request->input('job_desc');
-            $job_location =$request->input('job_location');
-            $more_info = $request->input('more_info');
-            $job_pay = $request->input('job_pay');
-            $data=array('job_name'=>$job_name,'job_category'=>$job_category,'job_desc'=>$job_desc,'job_location'=>$job_location,'more_info'=>$more_info,'job_pay'=>$job_pay);
-            DB::table('created_jobs')->insert($data);
+        AuthFacade::user()->jobs()->create($request->all());
+            // $job_name = $request->input('job_name');
+            // $job_category= $request->input('job_category');
+            // $job_desc=$request->input('job_desc');
+            // $job_location =$request->input('job_location');
+            // $more_info = $request->input('more_info');
+            // $job_pay = $request->input('job_pay');
+            // $data=array('job_name'=>$job_name,'job_category'=>$job_category,'job_desc'=>$job_desc,'job_location'=>$job_location,'more_info'=>$more_info,'job_pay'=>$job_pay);
+            // DB::table('created_jobs')->insert($data);
             echo "Job added successfully";
             return redirect('viewjobs');
     }

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Mail;
 use App\Mail\ContactMail;
 use DB;
+use Illuminate\Support\Facades\Auth;
 
 class Main extends Controller
 {
@@ -58,8 +59,7 @@ class Main extends Controller
     }
     public function viewjobs()
     {
-        $job = DB:: select('select * from created_jobs');
-        return view('employer.viewjobs',['job'=>$job]);
+        return view('employer.viewjobs',['job'=>Auth::user()->jobs]);
     }
 
     public function employee()
