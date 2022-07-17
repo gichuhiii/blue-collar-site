@@ -21,6 +21,7 @@ Route::get('/panel', [Admin::class, 'panel']);
 Route::get('/users', [Auth::class, 'usersList'])->name('user.list');
 Route::get('/edit-user/{id}', [Auth::class, 'editUser'])->name('user.edit');
 Route::get('/edit-profile/{id}', [Auth::class, 'editProfile'])->name('profile.edit');
+Route::get('/edit-profilee/{id}', [Auth::class, 'editProfilee'])->name('profilee.edit');
 Route::get('/delete-user/{id}', [Auth::class, 'deleteUser'])->name('user.delete');
 Route::get('/delete-profile/{id}', [Auth::class, 'deleteProfile'])->name('profile.delete');
 Route::post('/update-user', [Auth::class, 'updateUser'])->name('update.user');

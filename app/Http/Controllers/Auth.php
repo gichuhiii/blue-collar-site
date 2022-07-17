@@ -249,6 +249,11 @@ class Auth extends Controller
         $data = DB::table('users')->where('id', $id)->first();
         return view('admin.edit-profile', compact('data'));
     }
+    public function editProfilee($id)
+    {
+        $data = DB::table('users')->where('id', $id)->first();
+        return view('employee.edit-profilee', compact('data'));
+    }
 
     public function deleteUser($id)
     {
