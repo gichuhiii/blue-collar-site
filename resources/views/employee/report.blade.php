@@ -18,9 +18,16 @@
 
         <div class="reportcard">
             <h1>Report a problem...</h1>
-            <form action="">
-                <input type="hidden" name="">
-                <input type="hidden" name="">
+            <form action="{{route('reportmsg')}}" method="post">
+
+                @If(Session::has('success'))
+                <div class="alert-message green">
+                    {{Session::get('success')}}
+                </div>
+            @endif
+            @csrf
+                <input type="hidden" name="user_id" value="{{$data->id}}">
+                <input type="hidden" name="first_name" value="{{$data->first_name}}">
                 <textarea name="report" id="report" cols="30" rows="10" placeholder="What seems to be the problem?"></textarea>
                 <button type="submit">Send</button>
             </form>
