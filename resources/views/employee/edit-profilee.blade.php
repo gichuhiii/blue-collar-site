@@ -62,7 +62,7 @@
             <div class="cta_btns">
                 <ul> 
                   <li><button type="submit">Edit</button></li>
-                  <li><a href="/delete-user/{{$data->id}}">Delete Account</a></li>
+                  <li><a href="#">Delete Account</a></li>
               </ul>
           </div>
         </form>
