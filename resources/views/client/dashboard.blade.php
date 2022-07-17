@@ -56,7 +56,7 @@
 			<li>
 				<a href="/profile">
 					<i class='bx bxs-cog' ></i>
-					<span class="text">Settings</span>
+					<span class="text">My Account</span>
 				</a>
 			</li>
 			<li>
