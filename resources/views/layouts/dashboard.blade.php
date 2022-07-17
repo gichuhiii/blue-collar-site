@@ -35,18 +35,12 @@
 			</li>
 			<li>
 				<a href="#">
-					<i class='bx bxs-doughnut-chart' ></i>
-					<span class="text">History</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
 					<i class='bx bxs-message-dots' ></i>
 					<span class="text">Feedback</span>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/report/{{$data->id}}">
 					<i class='bx bxs-group' ></i>
 					<span class="text">Reports</span>
 				</a>

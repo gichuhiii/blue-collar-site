@@ -529,6 +529,7 @@ body {
 	border: none;
 	color: #ffffff;
 	background: #00214A;
+	border-radius: 20px;
 }
 .reportcard button:hover
 {
