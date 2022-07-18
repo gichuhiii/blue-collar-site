@@ -28,7 +28,7 @@ Route::get('/delete-profile/{id}', [Auth::class, 'deleteProfile'])->name('profil
 Route::post('/update-user', [Auth::class, 'updateUser'])->name('update.user');
 Route::post('/update-profile', [Auth::class, 'updateProfile'])->name('update.profile');
 Route::get('/jobs',[Main::class, 'jobs']);
-Route::get('/jobdetails/{job}',[Main::class, 'jobdetails']);
+Route::get('/jobdetails/{job}',[Main::class, 'jobdetails'])->middleware('auth');
 Route::get('/employer',[Main::class, 'employer'])->middleware('auth');
 Route::get('/viewemployees',[Main::class, 'viewemployees'])->middleware('auth');
 Route::get('/viewjobs',[Main::class, 'viewjobs'])->middleware('auth');

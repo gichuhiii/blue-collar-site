@@ -8,6 +8,7 @@ use App\Mail\ContactMail;
 use DB;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Job;
+use App\Models\User;
 
 class Main extends Controller
 {
@@ -45,9 +46,9 @@ class Main extends Controller
         return view('client.jobs',['job'=>$job]);
     }
 
-    public function jobdetails(Job $job)
+    public function jobdetails(Job $job,User $user)
     {
-        return view('client.jobdetails',["jobdetails"=> $job->load("user")]);
+        return view('client.jobdetails',["jobdetails"=> $job->load("user")],["user"=>$user]);
     }
 
     public function employer()

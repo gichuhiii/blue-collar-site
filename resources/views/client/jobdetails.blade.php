@@ -146,7 +146,7 @@
             <div class="tabs-content" style="display: block;">
               <h4>About Employer</h4>
 
-              <p>{{$jobdetails->first_name}} {{$jobdetails->last_name}}</p>
+              <p>{{$user->first_name}} {{$user->last_name}}</p>
 
               <br>
 
@@ -159,49 +159,19 @@
           </div>
 
           <!-- <div class="col-lg-3">
-            <div class="tabs-content">
-              <h4>Contact Details</h4>
+            <div class="tabs-content" style="display: block;">
+              <h4>Job Details</h4>
 
-              <p>
-                <span>Name</span>
-              
-                <br>
-              
-                <strong>John Smith</strong>
-              </p>
-              
-              <p>
-                <span>Phone</span>
-              
-                <br>
-                
-                <strong>
-                  <a href="tel:123-456-789">123-456-789</a>
-                </strong>
-              </p>
-              
-              <p>
-                <span>Mobile phone</span>
-              
-                <br>
-                
-                <strong>
-                  <a href="tel:456789123">456789123</a>
-                </strong>
-              </p>
-              
-              <p>
-                <span>Email</span>
-              
-                <br>
-                
-                <strong>
-                  <a href="mailto:john@carsales.com">john@carsales.com</a>
-                </strong>
-              </p>
-            </div>
-          </div>
-        </div> -->
+              <p>Job Category: {{$jobdetails->job_category}}</p>
+
+              <br>
+
+              <p>Job Location: {{$jobdetails->job_location}}</p>
+
+              <br>
+
+              <p>Job Pay: {{$jobdetails->job_pay}}</p>
+            </div> -->
 
         <br>
 
