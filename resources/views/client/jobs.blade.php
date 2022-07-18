@@ -117,7 +117,7 @@
 											<h6>{{$job->job_category}}</h6>					
 										</div>
 										<ul class="btns">
-											<li><a href="/jobdetails">Apply</a></li>
+											<li><a href="{{"/jobdetails/{$job->id}"}}">Apply</a></li>
 										</ul>
 									</div>
 									<p>
