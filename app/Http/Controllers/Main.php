@@ -7,6 +7,7 @@ use Mail;
 use App\Mail\ContactMail;
 use DB;
 use Illuminate\Support\Facades\Auth;
+use App\Models\Job;
 
 class Main extends Controller
 {
@@ -44,15 +45,9 @@ class Main extends Controller
         return view('client.jobs',['job'=>$job]);
     }
 
-    public function jobdetails(Request $request)
+    public function jobdetails(Job $job)
     {
-        $jobdetails=DB:: table('created_jobs');
-        $jobdetails->select('*');
-        $jobdetails->join('users', 'created_jobs.user_id', '=', 'users.id');
-        $jobdetails->select('created_jobs.job_name','created_jobs.job_category','created_jobs.job_desc','created_jobs.job_location','created_jobs.more_info','created_jobs.job_pay','users.first_name', 'users.last_name', 'users.email', 'users.phone_number');
-        $jobdetails->where('created_jobs.id', $request->id);
-        $jobdetails=$jobdetails->get();
-        return view('client.jobdetails',['jobdetails'=>$jobdetails]);
+        return view('client.jobdetails',["jobdetails"=> $job->load("user")]);
     }
 
     public function employer()

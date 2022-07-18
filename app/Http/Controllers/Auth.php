@@ -11,6 +11,7 @@ use App\Mail\EmailVerificationMail;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth as AuthFacade;
+// use Illuminate\Support\Facades\Auth;
 
 class Auth extends Controller
 {
@@ -111,7 +112,7 @@ class Auth extends Controller
         return view('employer.employer', compact('data'));
     }
 
-    public function panel()
+    public function panel($id)
     {
         $data = array();
         if(Session::has('loginId'))
@@ -122,21 +123,15 @@ class Auth extends Controller
     }
     public function profile()
     {
-        $data = array();
-        if(Session::has('loginId'))
-        {
-            $data = User::where('id', '=', Session::get('loginId'))->first();
-        }
-        return view('employee.profile', compact('data'));
+        $data=DB::table('users')->where('id', AuthFacade::user()->id);
+        $data=$data->get();
+        return view('employee.profile', ['data'=>$data]);
     }
     public function profilea()
     {
-        $data = array();
-        if(Session::has('loginId'))
-        {
-            $data = User::where('id', '=', Session::get('loginId'))->first();
-        }
-        return view('admin.profile', compact('data'));
+        $data=DB::table('users')->where('id', AuthFacade::user()->id);
+        $data=$data->get();
+        return view('admin.profile', ['data'=>$data]);
     }
 
     public function logout()

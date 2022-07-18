@@ -10,6 +10,7 @@
 
 <div class="wrapper">
     <div class="left">
+      @foreach($data as $data)
         <h4><span>{{$data->first_name}} </span><span>{{$data->last_name}}</span></h4>
          <p>{{$data->user_role}}</p>
          <ul class="nav">
@@ -53,6 +54,7 @@
              </div>
            </div>
         </div>
+        @endforeach
       
       <div class="cta">      
         <div class="cta_btns">
