@@ -102,17 +102,25 @@
         <div class="row">
           <div class="col-md-8">
             <div class="tabs-content" style="display: block;">
-              <h4>Description</h4>
+              <h4>{{$jobdetails->job_name}}</h4>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae provident quae quidem minima cupiditate tempora aperiam corrupti ducimus quos quisquam ipsam, laborum voluptatibus reiciendis saepe, at, facere cum quo! Nesciunt.</p>
-
-              <br>
-
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam optio doloribus modi? Odio voluptatibus dolorem itaque illo recusandae quasi unde eaque architecto, repellendus id consequatur vel totam, doloremque distinctio quas explicabo iure quisquam quis rem ipsa, accusantium! Perspiciatis, dicta, recusandae?</p>
+              <p>{{$jobdetails->job_category}}</p>
 
               <br>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sunt dolore minima commodi laudantium accusamus nemo repellat sapiente, eius error hic, autem. Dicta eveniet at consequatur dolorum placeat in, laborum beatae temporibus, delectus accusantium assumenda corporis, eum animi quaerat minus eos necessitatibus ipsam! Officia ut ab aspernatur, voluptatem blanditiis qui neque repellendus sapiente voluptas tempora exercitationem ipsa vel, dolorum consequatur.</p>
+              <p>{{$jobdetails->job_desc}}</p>
+
+              <br>
+
+              <p>{{$jobdetails->more_info}}</p>
+
+              <br>
+
+              <p>{{$jobdetails->job_location}}</p>
+
+              <br>
+
+              <p>{{$jobdetails->job_pay}}</p>
             </div>
 
             <br>
@@ -138,19 +146,19 @@
             <div class="tabs-content" style="display: block;">
               <h4>About Employer</h4>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae provident quae quidem minima cupiditate tempora aperiam corrupti ducimus quos quisquam ipsam, laborum voluptatibus reiciendis saepe, at, facere cum quo! Nesciunt.</p>
+              <p>{{$jobdetails->first_name}} {{$jobdetails->last_name}}</p>
 
               <br>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam optio doloribus modi? Odio voluptatibus dolorem itaque illo recusandae quasi unde eaque architecto, repellendus id consequatur vel totam, doloremque distinctio quas explicabo iure quisquam quis rem ipsa, accusantium! Perspiciatis, dicta, recusandae?</p>
+              <p>{{$jobdetails->email}}</p>
 
               <br>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sunt dolore minima commodi laudantium accusamus nemo repellat sapiente, eius error hic, autem. Dicta eveniet at consequatur dolorum placeat in, laborum beatae temporibus, delectus accusantium assumenda corporis, eum animi quaerat minus eos necessitatibus ipsam! Officia ut ab aspernatur, voluptatem blanditiis qui neque repellendus sapiente voluptas tempora exercitationem ipsa vel, dolorum consequatur.</p>
+              <p>{{$jobdetails->phone_number}}</p>
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <!-- <div class="col-lg-3">
             <div class="tabs-content">
               <h4>Contact Details</h4>
 
@@ -193,7 +201,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <br>
 
