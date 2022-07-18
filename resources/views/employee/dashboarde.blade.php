@@ -28,7 +28,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/jobs">
 					<i class='bx bxs-shopping-bag-alt' ></i>
 					<span class="text">Jobs</span>
 				</a>
