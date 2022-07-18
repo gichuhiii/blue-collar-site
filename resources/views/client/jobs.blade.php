@@ -106,25 +106,25 @@
 
             <!-- jobs here -->
             
-            @foreach($job as $job)
+            @foreach($jobdetails as $jobdetails)
     <div class="single-post d-flex flex-row">
 								<div class="thumb">
 								</div>
 								<div class="details">
 									<div class="title d-flex flex-row justify-content-between">
 										<div class="titles">
-											<a href="single.html"><h4>{{$job->job_name}}</h4></a>
-											<h6>{{$job->job_category}}</h6>					
+											<a href="single.html"><h4>{{$jobdetails->job_name}}</h4></a>
+											<h6>{{$jobdetails->job_category}}</h6>					
 										</div>
 										<ul class="btns">
-											<li><a href="{{"/jobdetails/{$job->id}"}}">Apply</a></li>
+											<li><a href="{{"/jobdetails/{$jobdetails->id}"}}">Apply</a></li>
 										</ul>
 									</div>
 									<p>
-									{{$job->job_desc}}
+									{{$jobdetails->job_desc}}
 									</p>
-									<p class="address">{{$job->job_location}}</p>
-									<p class="address">{{$job->job_pay}}</p>
+									<p class="address">{{$jobdetails->job_location}}</p>
+									<p class="address">{{$jobdetails->job_pay}}</p>
 								</div>
 							</div>
               @endforeach

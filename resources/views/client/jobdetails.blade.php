@@ -102,6 +102,8 @@
         <div class="row">
           <div class="col-md-8">
             <div class="tabs-content" style="display: block;">
+
+
               <h4>{{$jobdetails->job_name}}</h4>
 
               <p>{{$jobdetails->job_category}}</p>
@@ -133,7 +135,7 @@
             </div>
             <br>
 
-            <a href="#" class="filled-button text-center" style="display: block">Apply for this Job</a>
+            <a href="/apply" class="filled-button text-center" style="display: block">Apply for this Job</a>
 
             <br>
           </div>
@@ -146,17 +148,19 @@
             <div class="tabs-content" style="display: block;">
               <h4>About Employer</h4>
 
-              <p>{{$user->first_name}} {{$user->last_name}}</p>
+              <p>{{$jobdetails->user->first_name}} {{$jobdetails->user->last_name}}</p>
 
               <br>
 
-              <p>{{$jobdetails->email}}</p>
+              <p>{{$jobdetails->user->email}}</p>
 
               <br>
 
-              <p>{{$jobdetails->phone_number}}</p>
+              <p>{{$jobdetails->user->phone_number}}</p>
             </div>
           </div>
+       
+       
 
           <!-- <div class="col-lg-3">
             <div class="tabs-content" style="display: block;">
@@ -174,9 +178,6 @@
             </div> -->
 
         <br>
-
-
-
         <br>
         <br>
         <br>
