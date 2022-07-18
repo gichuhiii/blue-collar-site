@@ -18,9 +18,9 @@
         <ul class="side-links">
             <li><a href="/panel"><i class="fa fa-th" aria-hidden="true"></i>&nbsp; &nbsp; <span>Dashboard</span></a></li>
             <li><a href="/users"><i class="fa fa-users" aria-hidden="true"></i>&nbsp; &nbsp;<span>Users</span></a></li>
-            <li><a href=""><i class="fa fa-flag" aria-hidden="true"></i>&nbsp; &nbsp;<span>Reports</span></a></li>
-            <li><a href=""><i class="fa fa-user" aria-hidden="true"></i>&nbsp; &nbsp;<span>My Account</span></a></li>
-            <li><a href=""><i class="fa fa-cog" aria-hidden="true"></i>&nbsp; &nbsp;<span>Settings</span></a></li>
+            <li><a href="/reports"><i class="fa fa-flag" aria-hidden="true"></i>&nbsp; &nbsp;<span>Reports</span></a></li>
+            <li><a href="/profilea"><i class="fa fa-user" aria-hidden="true"></i>&nbsp; &nbsp;<span>My Account</span></a></li>
+            <li><a href="/logout"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp; &nbsp;<span>Logout</span></a></li>
         </ul>
     </div>
     <div class="container">
@@ -31,10 +31,10 @@
                     <button type="submit"><img src="{{url('/images/search.png')}}" alt=""></button>
                 </div>
                 <div class="user">
-                    <a href="#" class="btn">Add New</a>
+                    <!--<h1>{$data->first_name}}</h1>-->
                     <!--<img src="notifications.png" alt="">-->
                     <div class="img-case">
-                        <img src="{{url('/images/user.png')}}" alt="">
+                        <a href="/profilea"><img src="{{url('/images/user.png')}}" alt=""></a>
                     </div>
                 </div>
             </div>

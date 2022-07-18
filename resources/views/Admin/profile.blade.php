@@ -13,8 +13,8 @@
         <h4><span>{{$data->first_name}} </span><span>{{$data->last_name}}</span></h4>
          <p>{{$data->user_role}}</p>
          <ul class="nav">
-            <li><a href="/edit-profilee/{{$data->id}}">Edit</a></li>
-            <li><a href="">Home</a></li>
+            <li><a href="">Edit</a></li>
+            <li><a href="/panel">Home</a></li>
             <li><a href="">Delete</a></li>
             <li><a href="/logout">Logout</a></li>
          </ul>
@@ -57,8 +57,8 @@
       <div class="cta">      
         <div class="cta_btns">
             <ul>
-              <li><a href="/edit-profilee/{{$data->id}}">Edit</a></li>
-              <li><a href="/delete-user/{{$data->id}}">Delete Account</a></li>
+              <li><a href="/edit-profile/{{$data->id}}">Edit</a></li>
+              <li><a href="#">Delete Account</a></li>
           </ul>
       </div>
     </div>

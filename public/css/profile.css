@@ -139,8 +139,29 @@ body{
     text-decoration: none;
     font-size: 20px;
 }
+button
+{
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+}
 
 .nav li a:hover
 {
     color: #ea25b5;
+}
+
+input
+{
+  border: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #919aa3;
+  border-bottom: solid #eeeeee 1px;
+}
+
+input:focus
+{
+  outline: none;
 }

@@ -31,16 +31,16 @@
                     <input type="password" name="cpassword" id="cpassword" value="" required>
                     <label for="user_role">Gender</label>
                     <select name="gender" id="gender">
-                        <option value="1" class="item">Male</option>
-                        <option value="2" class="item">Female</option>
-                        <option value="3" class="item">Other</option>
-                        <option value="4" class="item">Prefer not to say</option>
+                        <option value="Male" class="item">Male</option>
+                        <option value="Female" class="item">Female</option>
+                        <option value="Other" class="item">Other</option>
+                        <option value="Prefer Not To Say" class="item">Prefer not to say</option>
                     </select>
                     <label for="user_role">Role</label>
                     <select name="user_role" id="user_role">
-                        <option value="1" class="item">Employer</option>
-                        <option value="2" class="item">Employee</option>
-                        <option value="3" class="item">Admin</option>
+                        <option value="employer" class="item">Employer</option>
+                        <option value="employee" class="item">Employee</option>
+                        <option value="admin" class="item">Admin</option>
                     </select>    
             <button type="submit">Sign Up</button><br>
         </form>

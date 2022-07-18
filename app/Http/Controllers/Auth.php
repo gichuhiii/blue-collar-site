@@ -152,6 +152,15 @@ class Auth extends Controller
         return view('employer.employer', compact('data'));
     }
 
+    public function panel()
+    {
+        $data = array();
+        if(Session::has('loginId'))
+        {
+            $data = User::where('id', '=', Session::get('loginId'))->first();
+        }
+        return view('admin.panel', compact('data'));
+    }
     public function profile()
     {
         $data = array();
@@ -160,6 +169,15 @@ class Auth extends Controller
             $data = User::where('id', '=', Session::get('loginId'))->first();
         }
         return view('employee.profile', compact('data'));
+    }
+    public function profilea()
+    {
+        $data = array();
+        if(Session::has('loginId'))
+        {
+            $data = User::where('id', '=', Session::get('loginId'))->first();
+        }
+        return view('admin.profile', compact('data'));
     }
 
     public function logout()
@@ -230,7 +248,24 @@ class Auth extends Controller
         return view('auth.edit-user', compact('user'));
     }
 
+    public function editProfile($id)
+    {
+        $data = DB::table('users')->where('id', $id)->first();
+        return view('admin.edit-profile', compact('data'));
+    }
+    public function editProfilee($id)
+    {
+        $data = DB::table('users')->where('id', $id)->first();
+        return view('employee.edit-profilee', compact('data'));
+    }
+
     public function deleteUser($id)
+    {
+        DB::table('users')->where('id', $id)->delete();
+        return back()->with('user_delete', 'User Removed');
+    }
+
+    public function deleteProfile($id)
     {
         DB::table('users')->where('id', $id)->delete();
         return back()->with('user_delete', 'User Removed');
@@ -248,6 +283,20 @@ class Auth extends Controller
                 'phone_number'=>$request->phone_number,
                 'user_role'=>$request->user_role,
                 'gender'=>$request->gender
+            ]
+        );
+
+    return back()->with('user_update', 'Successful Update');
+    }
+    public function updateProfile(Request $request)
+    {
+        DB::table('users')->where('id', $request->id)->update
+        (
+            [
+                'first_name'=>$request->first_name,
+                'last_name'=>$request->last_name,
+                'email'=>$request->email,
+                'phone_number'=>$request->phone_number
             ]
         );
 
