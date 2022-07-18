@@ -120,7 +120,7 @@
 									<p class="address">{{$employee->job_pay}}</p>
 								</div>
                                 <p>
-                                    <a href="#">Job Completed</a>
+                                    <a href="/deleteEmployee">Job Completed</a>
                                 </p>
                                 <p>
                                     <a href="/deleteEmployee">Remove Employee</a>
