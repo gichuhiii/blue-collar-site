@@ -30,7 +30,7 @@ Route::post('/update-profile', [Auth::class, 'updateProfile'])->name('update.pro
 Route::get('/jobs',[Main::class, 'jobs']);
 Route::get('/jobdetails',[Main::class, 'jobdetails']);
 Route::get('/employer',[Main::class, 'employer'])->middleware('auth');
-Route::get('/viewemployees',[Main::class, 'viewemployees']);
+Route::get('/viewemployees',[Main::class, 'viewemployees'])->middleware('auth');
 Route::get('/viewjobs',[Main::class, 'viewjobs'])->middleware('auth');
 Route::get('/dashboarde', [Main::class, 'employee']);
 Route::post('/job', [Auth::class, 'job'])->name('job');
@@ -38,3 +38,4 @@ Route::get('/profile', [Auth::class, 'profile'])->middleware('isLoggedIn');
 Route::get('/profilea', [Auth::class, 'profilea'])->middleware('isLoggedIn');
 Route::get('/report/{id}', [Report::class, 'report']);
 Route::post('/reportmsg', [Report::class, 'reportmsg'])->name('reportmsg');
+Route::get('/deleteEmployee/{id}', [Auth::class, 'deleteEmployee'])->name('deleteEmployee');

@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="{{url('/css/fontawesome.css')}}">
     <link rel="stylesheet" href="{{url('/css/style.css')}}">
     <link rel="stylesheet" href="{{url('/css/owl.css')}}">
+
+    <link rel="stylesheet" href="{{url('css/linearicons.css')}}">
+		<link rel="stylesheet" href="{{url('css/font-awesome.min.css')}}">
+		<link rel="stylesheet" href="{{url('css/bootstrap.css')}}">
+		<link rel="stylesheet" href="{{url('css/magnific-popup.css')}}">
+		<link rel="stylesheet" href="{{url('css/nice-select.css')}}">					
+		<link rel="stylesheet" href="{{url('css/animate.min.css')}}">
+		<link rel="stylesheet" href="{{url('css/owl.carousel.css')}}">
+		<link rel="stylesheet" href="{{url('css/main.css')}}">
   </head>
   <body>
     <!-- ***** Preloader Start ***** -->
@@ -72,9 +81,57 @@
         </div>
       </nav>
     </header>
-  <p>
-    employees here
-  </p>
+    <!-- Page Content Starts Here -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 style = "color: #ffffff!important;">Your Employees</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="link">
+    <a href="/employer">Add a New Job</a>
+    </div>
+    <section class="post-area section-gap">
+				<div class="container">
+					<div class="row justify-content-center d-flex">
+						<div class="col-lg-8 post-list">
+          
+            <!-- employees here -->
+
+                            @foreach($employee as $employee)
+                    <div class="single-post d-flex flex-row">
+								<div class="thumb">
+								</div>
+								<div class="details">
+									<div class="title d-flex flex-row justify-content-between">
+										<div class="titles">
+											<h4>{{$employee->first_name}} {{$employee->last_name}}</h4>
+											<h6>{{$employee->phone_number}}</h6>					
+										</div>
+									</div>
+									<p>
+									{{$employee->email}}
+									</p>
+									<p class="address">{{$employee->job_name}}</p>
+
+									<p class="address">{{$employee->job_pay}}</p>
+								</div>
+                                <p>
+                                    <a href="/deleteEmployee">Job Completed</a>
+                                </p>
+                                <p>
+                                    <a href="/deleteEmployee">Remove Employee</a>
+                                </p>
+							</div>
+              @endforeach
+    <!-- employees ends -->
+</div>
+</div>
+</div> 
+  <!-- Page Content ends here -->
 
     <!-- Footer Starts Here -->
     <footer>

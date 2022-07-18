@@ -99,47 +99,6 @@ class Auth extends Controller
             default=>"/logout"
          };
             return redirect($route);
-
-
-        //  $user = User::where('email', '=', $request->email)->first();
-        //  if(!$user)
-        //  {
-        //     return back()->with('fail', 'Email not registered');
-        //  }
-        //  else
-        //  {
-        //     if(!$user->email_verified_at)
-        //     {
-        //         return back()->with('fail', 'Email not verified');
-        //     }
-        //     else
-        //     {
-        //         if(!$user->is_active)
-        //         {
-        //             return back()->with('fail', 'User not active. Contact admin.');
-        //         }
-        //         else
-        //         {
-        //             if($user)
-        //             {
-        //               if(Hash::check($request->password, $user->password))
-        //               {
-        //                    $request->session()->put('loginId', $user->id);
-        //                    return redirect('dashboard');
-        //               }
-        //               else
-        //               {
-        //                    return back()->with('fail', 'The password is incorrect');
-        //               }
-        //             }
-           
-        //             else
-        //             {
-        //                    return back()->with('fail', 'Invalid Credentials');
-        //             }
-        //         }
-        //     }
-        //  }
     }
 
     public function dashboard()
@@ -301,5 +260,11 @@ class Auth extends Controller
         );
 
     return back()->with('user_update', 'Successful Update');
+    }
+    public function deleteEmployee($id)
+    {
+        DB::table('applied_users')->where('employer_id', $id)->delete();
+        return view('employer.viewemployees')->with('user_delete', 'User Removed');
+
     }
 }

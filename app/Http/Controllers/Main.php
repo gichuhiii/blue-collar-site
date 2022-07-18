@@ -44,10 +44,15 @@ class Main extends Controller
         return view('client.jobs',['job'=>$job]);
     }
 
-    public function jobdetails()
-    {   
-        return view('client.jobdetails');
-        
+    public function jobdetails(Request $request)
+    {
+        $jobdetails=DB:: table('created_jobs');
+        $jobdetails->select('*');
+        $jobdetails->join('users', 'created_jobs.user_id', '=', 'users.id');
+        $jobdetails->select('created_jobs.job_name','created_jobs.job_category','created_jobs.job_desc','created_jobs.job_location','created_jobs.more_info','created_jobs.job_pay','users.first_name', 'users.last_name', 'users.email', 'users.phone_number');
+        $jobdetails->where('created_jobs.id', $request->id);
+        $jobdetails=$jobdetails->get();
+        return view('client.jobdetails',['jobdetails'=>$jobdetails]);
     }
 
     public function employer()
@@ -56,7 +61,17 @@ class Main extends Controller
     }
     public function viewemployees()
     {
-        return view('employer.viewemployees');
+        $employee=DB::table('users');
+        $employee->join('applied_users','users.id','=','applied_users.user_id');
+        $employee->select('users.*','applied_users.job_id');
+        $employee->where('users.user_role','employee');
+
+        $employee->join('created_jobs','applied_users.job_id','=','created_jobs.id');
+        $employee->select('users.*','applied_users.job_id','created_jobs.job_name','created_jobs.job_pay');
+        $employee->where('created_jobs.user_id',Auth::user()->id);
+
+        $employee=$employee->get();
+        return view('employer.viewemployees',['employee'=>$employee]);
     }
     public function viewjobs()
     {
