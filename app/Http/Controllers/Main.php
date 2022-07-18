@@ -8,6 +8,8 @@ use App\Mail\ContactMail;
 use DB;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Job;
+use App\Models\User;
+use App\Models\Employee;
 
 class Main extends Controller
 {
@@ -41,12 +43,13 @@ class Main extends Controller
 
     public function jobs()
     {
-        $job = DB:: select('select * from created_jobs');
-        return view('client.jobs',['job'=>$job]);
+        $jobdetails =Job::all();// DB:: select('select * from created_jobs');
+        return view('client.jobs',['jobdetails'=>$jobdetails]);
     }
 
     public function jobdetails(Job $job)
     {
+        //dd($job->load("user")->toArray());
         return view('client.jobdetails',["jobdetails"=> $job->load("user")]);
     }
 
@@ -77,5 +80,17 @@ class Main extends Controller
     {
         return view('employee.dashboarde');
     } 
+    public function apply()
+    {
+        DB::table('applied_users')->insert(
+            [
+                'user_id'=>Auth::user()->id,
+                'job_id'=>Employee::first()->job_id,
+                'employer_id'=>Job::first()->user_id,
+            ]
+        );
+        $jobdetails =Job::all();
+        return view('client.jobs',['jobdetails'=>$jobdetails]);
+    }
 
 }

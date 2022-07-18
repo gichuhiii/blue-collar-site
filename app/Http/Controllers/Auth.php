@@ -11,7 +11,6 @@ use App\Mail\EmailVerificationMail;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth as AuthFacade;
-// use Illuminate\Support\Facades\Auth;
 
 class Auth extends Controller
 {
