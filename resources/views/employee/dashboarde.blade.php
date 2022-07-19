@@ -46,7 +46,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/report">
 					<i class='bx bxs-group' ></i>
 					<span class="text">Reports</span>
 				</a>
@@ -54,9 +54,9 @@
 		</ul>
 		<ul class="side-menu">
 			<li>
-				<a href="#">
+				<a href="/profilea">
 					<i class='bx bxs-cog' ></i>
-					<span class="text">Settings</span>
+					<span class="text">My Account</span>
 				</a>
 			</li>
 			<li>
@@ -84,7 +84,7 @@
 				</div>
 			</form>
 			<h2>Hello User</h2>
-			<a href="#" class="profile">
+			<a href="/profilea" class="profile">
 				<img src="img/people.png">
 			</a>
 		</nav>

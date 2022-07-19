@@ -26,8 +26,8 @@
                 </div>
             @endif
             @csrf
-                <input type="hidden" name="user_id" value="{{$data->id}}">
-                <input type="hidden" name="first_name" value="{{$data->first_name}}">
+                <input type="hidden" name="user_id" value="">
+                <input type="hidden" name="first_name" value="">
                 <textarea name="report" id="report" cols="30" rows="10" placeholder="What seems to be the problem?"></textarea>
                 <button type="submit">Send</button>
             </form>

@@ -10,10 +10,9 @@ use Illuminate\Support\Facades\DB;
 
 class Report extends Controller
 {
-    public function report($id)
+    public function report()
     {
-        $data = DB::table('users')->where('id', $id)->first();
-        return view('employee.report', compact('data'));
+        return view('employee.report');
     }
 
     public function reportmsg(Request $request)

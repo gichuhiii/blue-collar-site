@@ -40,7 +40,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="/report/{{$data->id}}">
+				<a href="/report">
 					<i class='bx bxs-group' ></i>
 					<span class="text">Reports</span>
 				</a>
