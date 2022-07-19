@@ -135,7 +135,7 @@
             </div>
             <br>
 
-            <a href="/apply" class="filled-button text-center" style="display: block">Apply for this Job</a>
+            <a href="/apply/{{$jobdetails->id}}" class="filled-button text-center" style="display: block">Apply for this Job</a>
 
             <br>
           </div>

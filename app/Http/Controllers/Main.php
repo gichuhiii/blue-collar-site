@@ -43,13 +43,12 @@ class Main extends Controller
 
     public function jobs()
     {
-        $jobdetails =Job::all();// DB:: select('select * from created_jobs');
+        $jobdetails =Job::all();
         return view('client.jobs',['jobdetails'=>$jobdetails]);
     }
 
     public function jobdetails(Job $job)
     {
-        //dd($job->load("user")->toArray());
         return view('client.jobdetails',["jobdetails"=> $job->load("user")]);
     }
 
@@ -80,17 +79,17 @@ class Main extends Controller
     {
         return view('employee.dashboarde');
     } 
-    public function apply()
+    public function apply(Job $job)
     {
         DB::table('applied_users')->insert(
             [
                 'user_id'=>Auth::user()->id,
-                'job_id'=>Employee::first()->job_id,
-                'employer_id'=>Job::first()->user_id,
+                'job_id'=>$job->id,
+                'employer_id'=>$job->user_id
             ]
         );
         $jobdetails =Job::all();
-        return view('client.jobs',['jobdetails'=>$jobdetails]);
+        return view('client.jobs',['jobdetails'=> Job::all()]);
     }
 
 }

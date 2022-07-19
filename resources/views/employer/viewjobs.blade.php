@@ -74,7 +74,7 @@
                 <a class="nav-link" href="/viewemployees">View Employees</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">My Profile</a>
+                <a class="nav-link" href="/profileemployer">My Profile</a>
               </li>
             </ul>
           </div>
@@ -118,11 +118,11 @@
 
 									<p class="address">{{$job->job_pay}}</p>
 								</div>
-                                <p>
+                                <!-- <p>
                                     <a href="#">Edit</a>
-                                </p>
+                                </p> -->
                                 <p>
-                                    <a href="#">Delete</a>
+                                    <a href="/deletejob">Delete</a>
                                 </p>
 							</div>
               @endforeach

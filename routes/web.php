@@ -38,5 +38,8 @@ Route::get('/profile', [Auth::class, 'profile'])->middleware('auth');
 Route::get('/profilea', [Auth::class, 'profilea'])->middleware('auth');
 Route::get('/report/{id}', [Report::class, 'report']);
 Route::post('/reportmsg', [Report::class, 'reportmsg'])->name('reportmsg');
-Route::get('/deleteEmployee/{id}', [Auth::class, 'deleteEmployee'])->name('deleteEmployee');
-Route::get('/apply',[Main::class, 'apply']);
+Route::get('/deleteEmployee', [Auth::class, 'deleteEmployee']);
+Route::get('/apply/{job}',[Main::class, 'apply']);
+Route::get('/profileemployer', [Auth::class, 'profileemployer'])->middleware('auth');
+Route::get('/deletejob', [Auth::class, 'deletejob']);
+

@@ -74,7 +74,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">My Profile</a>
+                <a class="nav-link" href="/profileemployer">My Profile</a>
               </li>
             </ul>
           </div>
