@@ -22,7 +22,7 @@
 		</a>
 		<ul class="side-menu top">
 			<li class="active">
-				<a href="#">
+				<a href="/viewappliedjobs">
 					<i class='bx bxs-dashboard' ></i>
 					<span class="text">Dashboard</span>
 				</a>
@@ -34,13 +34,13 @@
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/profile">
 					<i class='bx bxs-doughnut-chart' ></i>
-					<span class="text">History</span>
+					<span class="text">Profile</span>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/contact">
 					<i class='bx bxs-message-dots' ></i>
 					<span class="text">Feedback</span>
 				</a>
@@ -107,7 +107,7 @@
 				</div>
 			</div>
 
-			<ul class="box-info">
+			<!-- <ul class="box-info">
 				<li>
 					<i class='bx bxs-calendar-check' ></i>
 					<span class="text">
@@ -129,9 +129,9 @@
 						<p>Total Earned</p>
 					</span>
 				</li>
-			</ul>
+			</ul> -->
 
-
+	
 			<div class="table-data">
 				<div class="order">
 					<div class="head">
@@ -139,59 +139,32 @@
 						<i class='bx bx-search' ></i>
 						<i class='bx bx-filter' ></i>
 					</div>
+					
 					<table>
 						<thead>
 							<tr>
-								<th>User</th>
-								<th>Date Order</th>
-								<th>Status</th>
+								<th>Job Name</th>
+								<th>Job Pay</th>
+								<th>Employer</th>
+								<th>Employer Number</th>
 							</tr>
 						</thead>
 						<tbody>
+						@foreach($jobdetails as $jobdetails)
 							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
+								<td>{{$jobdetails->job_name}}</td>
+								<td>{{$jobdetails->job_pay}}</td>
+								<td>{{$jobdetails->user->first_name}} {{$jobdetails->user->last_name}}</td>
+								<td>{{$jobdetails->user->phone_number}}</td>
+
 								<td><span class="status completed">Completed</span></td>
 							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status process">Process</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
-							</tr>
+							@endforeach
 						</tbody>
+		
 					</table>
 				</div>
-				<div class="todo">
+				<!-- <div class="todo">
 					<div class="head">
 						<h3>For You</h3>
 						<i class='bx bx-plus' ></i>
@@ -218,9 +191,9 @@
 							<p>Todo List</p>
 							<i class='bx bx-dots-vertical-rounded' ></i>
 						</li>
-					</ul>
-				</div>
-			</div>
+					</ul> -->
+				<!-- </div>
+			</div> -->
 		</main>
 		<!-- MAIN -->
 	</section>
