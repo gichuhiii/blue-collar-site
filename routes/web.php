@@ -7,7 +7,7 @@ use App\Http\Controllers\Admin;
 use App\Http\Controllers\Report;
 
 Route::get('/', [Main::class, 'index']);
-Route::get('/contact', [Main::class, 'contact']);
+Route::get('/contact', [Main::class, 'contact'])->middleware('auth');
 Route::post('/sendMessage', [Main::class, 'sendEmail'])->name('contact.send');
 Route::get('/about', [Main::class, 'about']);
 Route::get('/login', [Auth::class, 'login'])->name('login');
@@ -32,7 +32,7 @@ Route::get('/jobdetails/{job}',[Main::class, 'jobdetails'])->middleware('auth');
 Route::get('/employer',[Main::class, 'employer'])->middleware('auth');
 Route::get('/viewemployees',[Main::class, 'viewemployees'])->middleware('auth');
 Route::get('/viewjobs',[Main::class, 'viewjobs'])->middleware('auth');
-Route::get('/dashboarde', [Main::class, 'employee']);
+Route::get('/dashboarde', [Main::class, 'employee'])->middleware('auth');
 Route::post('/job', [Auth::class, 'job'])->name('job');
 Route::get('/profile', [Auth::class, 'profile'])->middleware('auth');
 Route::get('/profilea', [Auth::class, 'profilea'])->middleware('auth');
@@ -42,4 +42,5 @@ Route::get('/deleteEmployee', [Auth::class, 'deleteEmployee']);
 Route::get('/apply/{job}',[Main::class, 'apply']);
 Route::get('/profileemployer', [Auth::class, 'profileemployer'])->middleware('auth');
 Route::get('/deletejob', [Auth::class, 'deletejob']);
+Route::get('/viewappliedjobs',[Main::class, 'viewappliedjobs'])->middleware('auth');
 

@@ -22,19 +22,19 @@
 		</a>
 		<ul class="side-menu top">
 			<li class="active">
-				<a href="#">
+				<a href="/viewappliedjobs">
 					<i class='bx bxs-dashboard' ></i>
 					<span class="text">Dashboard</span>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/jobs">
 					<i class='bx bxs-shopping-bag-alt' ></i>
 					<span class="text">Jobs</span>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/contact">
 					<i class='bx bxs-message-dots' ></i>
 					<span class="text">Feedback</span>
 				</a>

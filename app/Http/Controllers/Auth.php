@@ -93,7 +93,7 @@ class Auth extends Controller
          }
          $request->session()->regenerate();
          $route=match(AuthFacade::user()->user_role){
-            "employee"=>"/dashboarde",
+            "employee"=>"/viewappliedjobs",
             "employer"=>"/viewjobs",
             "admin"=>"/panel",
             default=>"/logout"
