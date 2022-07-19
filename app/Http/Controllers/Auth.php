@@ -255,10 +255,31 @@ class Auth extends Controller
 
     return back()->with('user_update', 'Successful Update');
     }
-    public function deleteEmployee($id)
+    public function deleteEmployee()
     {
-        DB::table('applied_users')->where('employer_id', $id)->delete();
-        return view('employer.viewemployees')->with('user_delete', 'User Removed');
+        DB::table('applied_users')->where('employer_id', AuthFacade::user()->id)->delete();
+        $employee=DB::table('users');
+        $employee->join('applied_users','users.id','=','applied_users.user_id');
+        $employee->select('users.*','applied_users.job_id');
+        $employee->where('users.user_role','employee');
 
+        $employee->join('created_jobs','applied_users.job_id','=','created_jobs.id');
+        $employee->select('users.*','applied_users.job_id','created_jobs.job_name','created_jobs.job_pay');
+        $employee->where('created_jobs.user_id',AuthFacade::user()->id);
+
+        $employee=$employee->get();
+        return view('employer.viewemployees',['employee'=>$employee])->with('user_delete', 'User Removed');
+
+    }
+    public function profileemployer()
+    {
+        $data=DB::table('users')->where('id', AuthFacade::user()->id);
+        $data=$data->get();
+        return view('employer.profile', ['data'=>$data]);
+    }
+    public function deletejob()
+    {
+        DB::table('created_jobs')->where('user_id', AuthFacade::user()->id)->delete();
+        return view('employer.viewjobs',['job'=>AuthFacade::user()->jobs]);
     }
 }
