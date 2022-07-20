@@ -15,7 +15,7 @@
 			</form>
 			<h2>Hello <span>{{$data->first_name}} </span><span>{{$data->last_name}}</span></h2>
 			<a href="/profile" class="profile">
-				<img src="{{url('images/user.png')}}">
+				<!-- <img src="{{url('images/user.png')}}"> -->
 			</a>
 		</nav>
 		<!-- NAVBAR -->

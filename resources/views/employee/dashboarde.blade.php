@@ -83,9 +83,9 @@
 					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
 				</div>
 			</form>
-			<h2>Hello User</h2>
+			<h2>Employee Dashboard</h2>
 			<a href="/profilea" class="profile">
-				<img src="img/people.png">
+				<!-- <img src="img/people.png"> -->
 			</a>
 		</nav>
 		<!-- NAVBAR -->
@@ -121,6 +121,8 @@
 								<th>Job Pay</th>
 								<th>Employer</th>
 								<th>Employer Number</th>
+								<th>Employer Email</th>
+
 							</tr>
 						</thead>
 						<tbody>
@@ -130,6 +132,7 @@
 								<td>{{$jobdetails->job_pay}}</td>
 								<td>{{$jobdetails->first_name}} {{$jobdetails->last_name}}</td>
 								<td>{{$jobdetails->phone_number}}</td>
+								<td>{{$jobdetails->email}}</td>
 
 								<td><span class="status completed">Applied</span></td>
 							</tr>

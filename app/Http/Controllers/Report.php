@@ -30,7 +30,7 @@ class Report extends Controller
             $report -> first_name = $request->first_name;
             $report -> user_id = $request->user_id;
             $report -> report = $request->report;
-            //$res = $report->save();
+            $report->save(); 
         return back()->with('success', 'Report sent successfully.');
     }
 }

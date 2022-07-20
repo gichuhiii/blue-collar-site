@@ -288,4 +288,6 @@ class Auth extends Controller
         DB::table('created_jobs')->where('user_id', AuthFacade::user()->id)->delete();
         return view('employer.viewjobs',['job'=>AuthFacade::user()->jobs]);
     }
+   
+
 }
