@@ -98,6 +98,7 @@
     </div>
     <div class="link">
     <a href="/register/employer">Become an employer</a>
+    <a href="/viewappliedjobs">View Applied Jobs</a>
     </div>
     <section class="post-area section-gap">
 				<div class="container">

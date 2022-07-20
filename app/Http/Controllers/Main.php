@@ -93,23 +93,17 @@ class Main extends Controller
     }
     public function viewappliedjobs()
     {
-        $jobdetails =Job::all();
+        $jobdetails = DB::table('applied_users');
+        $jobdetails->join('users','applied_users.employer_id','=','users.id');
+        $jobdetails->select('users.*','applied_users.employer_id');
+        $jobdetails->where('users.user_role','employer');
+
+        $jobdetails->join('created_jobs','applied_users.job_id','=','created_jobs.id');
+        $jobdetails->select('users.*','applied_users.job_id','created_jobs.job_name','created_jobs.job_pay');
+        $jobdetails->where('applied_users.user_id',Auth::user()->id);
+
+        $jobdetails=$jobdetails->get();
+        // $jobdetails =Job::all();
         return view('employee.dashboarde',['jobdetails'=>$jobdetails]);
     }
-    // public function viewappliedjobs()
-    // {   
-    //     $jobdetails = DB::table('applied_users');
-    //     $jobdetails->join('users','applied_users.employer_id','=','users.id');
-    //     $jobdetails->select('users.*','applied_users.employer_id');
-    //     $jobdetails->where('users.user_role','employer');
-
-    //     $jobdetails->join('created_jobs','applied_users.job_id','=','created_jobs.id');
-    //     $jobdetails->select('users.*','applied_users.job_id','created_jobs.job_name','created_jobs.job_pay');
-    //     $jobdetails->where('applied_users.user_id',Auth::user()->id);
-
-    //     $jobdetails=$jobdetails->get();
-    //     dd($jobdetails);
-    //     return view('employee.viewappliedjobs',['jobdetails'=>$jobdetails]);
-    // }
-
 }
