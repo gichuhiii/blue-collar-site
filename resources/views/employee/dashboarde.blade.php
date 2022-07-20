@@ -106,32 +106,6 @@
 					</ul>
 				</div>
 			</div>
-
-			<!-- <ul class="box-info">
-				<li>
-					<i class='bx bxs-calendar-check' ></i>
-					<span class="text">
-						<h3>1020</h3>
-						<p>New Jobs</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bxs-group' ></i>
-					<span class="text">
-						<h3>2834</h3>
-						<p>Jobs Done</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bxs-dollar-circle' ></i>
-					<span class="text">
-						<h3>$2543</h3>
-						<p>Total Earned</p>
-					</span>
-				</li>
-			</ul> -->
-
-	
 			<div class="table-data">
 				<div class="order">
 					<div class="head">
@@ -154,46 +128,17 @@
 							<tr>
 								<td>{{$jobdetails->job_name}}</td>
 								<td>{{$jobdetails->job_pay}}</td>
-								<td>{{$jobdetails->user->first_name}} {{$jobdetails->user->last_name}}</td>
-								<td>{{$jobdetails->user->phone_number}}</td>
+								<td>{{$jobdetails->first_name}} {{$jobdetails->last_name}}</td>
+								<td>{{$jobdetails->phone_number}}</td>
 
-								<td><span class="status completed">Completed</span></td>
+								<td><span class="status completed">Applied</span></td>
 							</tr>
 							@endforeach
 						</tbody>
 		
 					</table>
 				</div>
-				<!-- <div class="todo">
-					<div class="head">
-						<h3>For You</h3>
-						<i class='bx bx-plus' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<ul class="todo-list">
-						<li class="completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-					</ul> -->
-				<!-- </div>
-			</div> -->
+			
 		</main>
 		<!-- MAIN -->
 	</section>
