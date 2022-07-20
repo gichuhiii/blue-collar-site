@@ -15,7 +15,7 @@
          <p>{{$data->user_role}}</p>
          <ul class="nav">
             <!-- <li><a href="/edit-profilee/{{$data->id}}">Edit</a></li> -->
-            <li><a href="/jobs">Back</a></li>
+            <li><a href="/viewappliedjobs">Back</a></li>
             <!-- <li><a href="">Delete</a></li> -->
             <li><a href="/logout">Logout</a></li>
          </ul>
