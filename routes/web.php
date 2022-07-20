@@ -43,4 +43,5 @@ Route::get('/apply/{job}',[Main::class, 'apply']);
 Route::get('/profileemployer', [Auth::class, 'profileemployer'])->middleware('auth');
 Route::get('/deletejob', [Auth::class, 'deletejob']);
 Route::get('/viewappliedjobs',[Main::class, 'viewappliedjobs'])->middleware('auth');
+Route::get('/allemployees',[Main::class, 'allemployees']);
 

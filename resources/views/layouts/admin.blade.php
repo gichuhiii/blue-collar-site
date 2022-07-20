@@ -16,7 +16,7 @@
             <h1>TaskIt</h1>
         </div>
         <ul class="side-links">
-            <li><a href="/panel"><i class="fa fa-th" aria-hidden="true"></i>&nbsp; &nbsp; <span>Dashboard</span></a></li>
+            <li><a href="/allemployees"><i class="fa fa-th" aria-hidden="true"></i>&nbsp; &nbsp; <span>Dashboard</span></a></li>
             <li><a href="/users"><i class="fa fa-users" aria-hidden="true"></i>&nbsp; &nbsp;<span>Users</span></a></li>
             <li><a href="/reports"><i class="fa fa-flag" aria-hidden="true"></i>&nbsp; &nbsp;<span>Reports</span></a></li>
             <li><a href="/profilea"><i class="fa fa-user" aria-hidden="true"></i>&nbsp; &nbsp;<span>My Account</span></a></li>

@@ -95,7 +95,7 @@ class Auth extends Controller
          $route=match(AuthFacade::user()->user_role){
             "employee"=>"/viewappliedjobs",
             "employer"=>"/viewjobs",
-            "admin"=>"/panel",
+            "admin"=>"/allemployees",
             default=>"/logout"
          };
             return redirect($route);
@@ -135,11 +135,16 @@ class Auth extends Controller
 
     public function logout()
     {
-        if(Session::has('loginId'))
+        if(Session::has('auth'))
         {
-            Session::pull('loginId');
-            return redirect('login');
+            Session::forget('auth');
+            
         }
+        return redirect('/login');
+        // {
+        //     Session::pull('loginId');
+        //     return redirect('/login');
+        // }
     }
 
     public function verify_email($verification_code)
@@ -279,6 +284,7 @@ class Auth extends Controller
     }
     public function deletejob()
     {
+ 
         DB::table('created_jobs')->where('user_id', AuthFacade::user()->id)->delete();
         return view('employer.viewjobs',['job'=>AuthFacade::user()->jobs]);
     }

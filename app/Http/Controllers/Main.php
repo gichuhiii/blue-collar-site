@@ -106,4 +106,14 @@ class Main extends Controller
         // $jobdetails =Job::all();
         return view('employee.dashboarde',['jobdetails'=>$jobdetails]);
     }
+    public function allemployees(){
+        $jobdetails =Job::all();
+        return view('admin.panel',['jobdetails'=>$jobdetails]);
+
+        // $allemployees=DB::table('users');
+        // $allemployees->select('users.*');
+        // $allemployees->where('users.user_role','employee');
+        // $allemployees=$allemployees->get();
+        // return view('admin.panel',['allemployees'=>$allemployees]);
+    }
 }
